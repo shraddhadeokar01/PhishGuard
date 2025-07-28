@@ -12,9 +12,11 @@
 //   Platform,
 //   KeyboardAvoidingView,
 // } from 'react-native';
-
 // import IconUser from 'react-native-vector-icons/FontAwesome';
 // import Icon from 'react-native-vector-icons/Entypo';
+// import axios from 'axios';
+
+// const URL = 'https://phishguard-78f53-default-rtdb.firebaseio.com';
 
 // const SignUpScreen = ({ navigation }) => {
 //   const [form, setForm] = useState({
@@ -24,9 +26,6 @@
 //     confirmPassword: '',
 //     agree: false,
 //   });
-//   const handleLogin1 = () => {
-//     navigation.navigate('LoginScreen');
-//   }
 
 //   const [showPassword, setShowPassword] = useState(true);
 
@@ -36,23 +35,48 @@
 
 //   const toggleAgree = () => setForm({ ...form, agree: !form.agree });
 
-//   const handleSignUp = () => {
+//   const handleLogin1 = () => {
+//     navigation.navigate('HomeScreen');
+//   };
+
+//   const handleSignUp = async () => {
 //     const { fullName, emailOrMobile, password, confirmPassword, agree } = form;
+
 //     if (!fullName || !emailOrMobile || !password || !confirmPassword) {
 //       return Alert.alert('All fields are required!');
 //     }
-//     if (password !== confirmPassword) {
+//     if (password.trim() !== confirmPassword.trim()) {
 //       return Alert.alert('Passwords do not match!');
 //     }
 //     if (!agree) {
 //       return Alert.alert('Please agree to the terms & policy!');
 //     }
 
-//     // Alert.alert('Success', 'Account created successfully!');
-//     navigation.navigate('HomeScreen')
+//     try {
+//       const response = await axios.get(`${URL}/students.json`);
+//       const data = response.data;
 
-//     // Optional: Clear form
-//     // setForm({ fullName: '', emailOrMobile: '', password: '', confirmPassword: '', agree: false });
+//       const isDuplicate = Object.values(data || {}).some(
+//         (user) => user.email === emailOrMobile || user.contact === emailOrMobile
+//       );
+
+//       if (isDuplicate) {
+//         return Alert.alert('User already exists with this email or mobile!');
+//       }
+
+//       await axios.post(`${URL}/users.json`, {
+//         name: fullName,
+//         email: emailOrMobile.includes('@') ? emailOrMobile : '',
+//         contact: emailOrMobile.includes('@') ? '' : emailOrMobile,
+//         password,
+//       });
+
+//       Alert.alert('Success ✅', 'Account created successfully!');
+//       navigation.navigate('LoginScreen');
+//     } catch (error) {
+//       console.error('Sign Up Error:', error);
+//       Alert.alert('❌ Error', 'Something went wrong during sign up');
+//     }
 //   };
 
 //   return (
@@ -127,26 +151,11 @@
 //               <Text style={styles.loginLink}>Login</Text>
 //             </TouchableOpacity>
 //           </View>
-
 //         </ScrollView>
 //       </KeyboardAvoidingView>
 //     </ImageBackground>
 //   );
 // };
-
-// // Reusable Input Component
-// const Input = ({ placeholder, value, onChangeText, secureTextEntry }) => (
-//   <View style={styles.inputWrapper}>
-//     <TextInput
-//       style={styles.input}
-//       placeholder={placeholder}
-//       value={value}
-//       onChangeText={onChangeText}
-//       secureTextEntry={secureTextEntry}
-//       placeholderTextColor="#555"
-//     />
-//   </View>
-// );
 
 // const styles = StyleSheet.create({
 //   bg: { flex: 1 },
@@ -190,25 +199,6 @@
 //   inputInner: {
 //     flex: 1,
 //     color: '#000',
-//   },
-//   inputWrapper: {
-//     width: '100%',
-//     backgroundColor: '#fff',
-//     borderRadius: 20,
-//     height: 45,
-//     paddingHorizontal: 15,
-//     flexDirection: 'row',
-//     alignItems: 'center',
-//     marginBottom: 15,
-//     elevation: 2,
-//   },
-//   input: {
-//     flex: 1,
-//     fontSize: 14,
-//     color: '#000',
-//     height: '100%',
-//     textAlignVertical: 'center',
-//     borderRadius: 30,
 //   },
 //   checkboxContainer: {
 //     flexDirection: 'row',
@@ -262,12 +252,11 @@
 //     justifyContent: 'center',
 //     alignItems: 'center',
 //   },
-
 // });
 
 // export default SignUpScreen;
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -284,6 +273,7 @@ import {
 import IconUser from 'react-native-vector-icons/FontAwesome';
 import Icon from 'react-native-vector-icons/Entypo';
 import axios from 'axios';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const URL = 'https://phishguard-78f53-default-rtdb.firebaseio.com';
 
@@ -298,6 +288,16 @@ const SignUpScreen = ({ navigation }) => {
 
   const [showPassword, setShowPassword] = useState(true);
 
+  useEffect(() => {
+    const checkLoggedInUser = async () => {
+      const user = await AsyncStorage.getItem('currentUser');
+      if (user) {
+        navigation.replace('HomeScreen');
+      }
+    };
+    checkLoggedInUser();
+  }, []);
+
   const handleChange = (field, value) => {
     setForm({ ...form, [field]: value });
   };
@@ -305,7 +305,7 @@ const SignUpScreen = ({ navigation }) => {
   const toggleAgree = () => setForm({ ...form, agree: !form.agree });
 
   const handleLogin1 = () => {
-    navigation.navigate('LoginScreen');
+    navigation.navigate('HomeScreen');
   };
 
   const handleSignUp = async () => {
@@ -333,15 +333,19 @@ const SignUpScreen = ({ navigation }) => {
         return Alert.alert('User already exists with this email or mobile!');
       }
 
-      await axios.post(`${URL}/users.json`, {
+      const newUser = {
         name: fullName,
         email: emailOrMobile.includes('@') ? emailOrMobile : '',
         contact: emailOrMobile.includes('@') ? '' : emailOrMobile,
         password,
-      });
+      };
+
+      await axios.post(`${URL}/users.json`, newUser);
+
+      await AsyncStorage.setItem('currentUser', JSON.stringify(newUser));
 
       Alert.alert('Success ✅', 'Account created successfully!');
-      navigation.navigate('LoginScreen');
+      navigation.replace('HomeScreen');
     } catch (error) {
       console.error('Sign Up Error:', error);
       Alert.alert('❌ Error', 'Something went wrong during sign up');

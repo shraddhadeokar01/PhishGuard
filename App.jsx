@@ -26,7 +26,7 @@ import BackgroundSettingsScreen from './src/screens1/BackgroundPlay';
 import AboutUsScreen from './src/screens1/AboutUs';
 import NotificationScreen from './src/screens1/NotificationScreen.jsx';
 import ChatBotScreen from './src/screens1/ChatBotScreen.jsx';
-
+import SplashScreen from './src/screens1/SplashScreen.jsx';
 const Stack = createNativeStackNavigator();
 
 const App = () => {
@@ -34,8 +34,9 @@ const App = () => {
     <NavigationContainer>
       <Stack.Navigator
         screenOptions={{ headerShown: false }}
-        initialRouteName="LoginScreen"
+        initialRouteName="SplashScreen"
       >
+        <Stack.Screen name="SplashScreen" component={SplashScreen} />
         <Stack.Screen name="LoginScreen" component={LoginScreen} />
         <Stack.Screen name="SignUpScreen" component={SignUpScreen} />
         <Stack.Screen name="HomeScreen" component={HomeScreen} />

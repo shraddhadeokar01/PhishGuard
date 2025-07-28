@@ -18,7 +18,7 @@ const AboutUsScreen = ({navigation}) => {
             >
                 <View style={styles.headerContainer}>
                     <TouchableOpacity onPress={() => navigation.goBack()}>
-                                <Icon name="arrow-back" size={24} color="#fff" />
+                                <Icon name="arrow-back" size={24} color="#fff" marginTop="7" />
                               </TouchableOpacity>
                     <Text style={styles.header}>About Us</Text>
                 </View>

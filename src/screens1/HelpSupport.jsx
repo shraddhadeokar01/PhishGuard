@@ -10,7 +10,7 @@ const HelpSupportScreen = ({ navigation }) => {
     >
       <View style={styles.headerContainer}>
         <TouchableOpacity onPress={() => navigation.goBack()}>
-          <Icon name="arrow-back" size={24} color="#fff" />
+          <Icon name="arrow-back" size={24} color="#fff" marginBottom="-1" />
         </TouchableOpacity>
         <Text style={styles.header}>Help & Support</Text>
       </View>
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 3,
     marginLeft: 10,
-    marginTop: 1
+    marginTop: 1.5
   },
   headerContainer: {
     flexDirection: 'row',

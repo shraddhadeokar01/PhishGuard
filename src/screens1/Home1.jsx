@@ -241,18 +241,42 @@ import Icon1 from 'react-native-vector-icons/FontAwesome';
 import Icon2 from 'react-native-vector-icons/Ionicons';
 import Icon3 from 'react-native-vector-icons/Ionicons';
 import Icon4 from 'react-native-vector-icons/FontAwesome';
+import { decode as atob, encode as btoa } from 'base-64';
+import database from '@react-native-firebase/database';
 
-const HomeScreen = ({navigation}) => {
+const HomeScreen = ({ navigation }) => {
   const [link, setLink] = useState('');
-  const [activeTab, setActiveTab] = useState('Home'); // 🔵 Added active tab state
+  const [activeTab, setActiveTab] = useState('HomeScreen');
 
-  const handleScan = () => {
-    if (!link.trim()) {
-      Alert.alert('Please paste a link to scan!');
+  const handleScan = async () => {
+  if (!link.trim()) {
+    Alert.alert('Please paste a link to scan!');
+    return;
+  }
+
+  try {
+    const trimmedLink = link.trim();
+    const encodedUrl = btoa(trimmedLink);
+
+    const snapshot = await database()
+      .ref(`phishing_links/${encodedUrl}`) 
+      .once('value');
+
+    if (snapshot.exists()) {
+      const data = snapshot.val();
+
+      Alert.alert(
+        '⚠ Phishing Link Detected!',
+        `URL: ${data.url}\nStatus: ${data.status}\nTags: ${data.tags}\nReported: ${data.date_added}`
+      );
     } else {
-      Alert.alert('Scanning link...', link);
+      Alert.alert('✅ Safe Link', 'No phishing threat found for this URL.');
     }
-  };
+  } catch (error) {
+    console.error('Error scanning link:', error);
+    Alert.alert('Error occurred during scan. Please try again.');
+  }
+};
 
   const handleReport = () => {
     if (!link.trim()) {
@@ -310,16 +334,16 @@ const HomeScreen = ({navigation}) => {
 
           {/* 🔵 Bottom Bar with active state icons */}
           <View style={styles.bottomBar}>
-            <TouchableOpacity onPress={() => { setActiveTab('Home');}}>
-              <Icon1 name="home" size={26} color={activeTab === 'Home' ? '#13376eff' : 'gray'} />
+            <TouchableOpacity onPress={() => { setActiveTab('HomeScreen'); }}>
+              <Icon1 name="home" size={26} color={activeTab === 'HomeScreen' ? '#13376eff' : 'gray'} />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => { setActiveTab('Settings');navigation.navigate('SettingsScreen')}}>
+            <TouchableOpacity onPress={() => { setActiveTab('Settings'); navigation.navigate('SettingsScreen') }}>
               <Icon2 name="settings" size={26} color={activeTab === 'Settings' ? '#13376eff' : 'gray'} />
             </TouchableOpacity>
             <TouchableOpacity onPress={() => { setActiveTab('Chat'); navigation.navigate('ChatBotScreen') }}>
               <Icon3 name="chatbox-ellipses" size={26} color={activeTab === 'Chat' ? '#13376eff' : 'gray'} />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => { setActiveTab('Profile');navigation.navigate('ProfileScreen')}}>
+            <TouchableOpacity onPress={() => { setActiveTab('Profile'); navigation.navigate('ProfileScreen') }}>
               <Icon4 name="user-circle-o" size={26} color={activeTab === 'Profile' ? '#13376eff' : 'gray'} />
             </TouchableOpacity>
           </View>
@@ -359,7 +383,7 @@ const styles = StyleSheet.create({
     padding: 20,
     alignItems: 'center',
     marginBottom: -30,
-    marginTop:50
+    marginTop: 50
   },
   input: {
     backgroundColor: '#eee',
@@ -390,21 +414,21 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     alignItems: 'center',
     marginBottom: -45,
-    marginTop:70
+    marginTop: 70
   },
   secondaryText: {
     color: '#001a33',
     fontWeight: '600',
     fontSize: 15,
   },
-    secondaryButton1: {
+  secondaryButton1: {
     backgroundColor: '#b3c9e7',
     width: '100%',
     borderRadius: 15,
     paddingVertical: 15,
     alignItems: 'center',
     marginBottom: -60,
-    marginTop:70
+    marginTop: 70
   },
   secondaryText1: {
     color: '#001a33',
@@ -454,11 +478,11 @@ const styles = StyleSheet.create({
     height: 55,
     backgroundColor: 'white',
     borderTopWidth: 1,
-    borderColor: 'darkgreen',
     flexDirection: 'row',
     justifyContent: 'space-around',
     alignItems: 'center',
   },
+
   tabItem: {
     color: '#004d2c',
     fontWeight: '600',

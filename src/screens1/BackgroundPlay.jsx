@@ -1,4 +1,84 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+// import {
+//   View,
+//   Text,
+//   StyleSheet,
+//   Switch,
+//   ImageBackground,
+//   SafeAreaView,
+//   TouchableOpacity
+// } from 'react-native';
+// import Icon from 'react-native-vector-icons/Ionicons';
+// const BackgroundSettingsScreen = ({ navigation }) => {
+//   const [isEnabled, setIsEnabled] = useState(false);
+
+//   const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+
+//   return (
+//     <SafeAreaView style={styles.container}>
+//       <ImageBackground
+//         source={require('../assets/background1.jpg')}
+//         style={styles.background}
+//         resizeMode="cover"
+//       >
+//         <View style={styles.headerContainer}>
+//           <TouchableOpacity onPress={() => navigation.goBack()}>
+//             <Icon name="arrow-back" size={24} color="#fff" />
+//           </TouchableOpacity>
+//           <Text style={styles.header}>Background</Text>
+//         </View>
+
+
+//         <View style={styles.switchContainer}>
+//           <Text style={styles.label}>Allow app to run{'\n'}in the background</Text>
+//           <Switch
+//             trackColor={{ false: '#767577', true: '#073866ff' }}
+//             thumbColor={isEnabled ? '#fff' : '#fff'}
+//             ios_backgroundColor="#3e3e3e"
+//             onValueChange={toggleSwitch}
+//             value={isEnabled}
+//           />
+//         </View>
+//       </ImageBackground>
+//     </SafeAreaView>
+//   );
+// };
+
+// const styles = StyleSheet.create({
+//   container: {
+//     flex: 1,
+//   },
+//   background: {
+//     flex: 1,
+//     padding: 20,
+//   },
+//   header: {
+//     fontSize: 24,
+//     fontWeight: 'bold',
+//     color: '#fff',
+//     marginBottom: 60,
+//     marginTop: -29,
+//     marginLeft: 30
+//   },
+//   switchContainer: {
+//     backgroundColor: '#ffffff', // 👈 Solid white
+//     padding: 15,
+//     borderRadius: 15,
+//     flexDirection: 'row',
+//     justifyContent: 'space-between',
+//     alignItems: 'center',
+//   },
+//   label: {
+//     color: '#000', // 👈 Changed to black for better contrast
+//     fontSize: 16,
+//     flex: 1,
+//     flexWrap: 'wrap',
+//   },
+// });
+
+// export default BackgroundSettingsScreen;
+
+import React, { useState, useEffect } from 'react';
 import {
   View,
   Text,
@@ -9,10 +89,34 @@ import {
   TouchableOpacity
 } from 'react-native';
 import Icon from 'react-native-vector-icons/Ionicons';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 const BackgroundSettingsScreen = ({ navigation }) => {
   const [isEnabled, setIsEnabled] = useState(false);
 
-  const toggleSwitch = () => setIsEnabled(previousState => !previousState);
+  useEffect(() => {
+    const loadBackgroundSetting = async () => {
+      try {
+        const savedValue = await AsyncStorage.getItem('backgroundEnabled');
+        if (savedValue !== null) {
+          setIsEnabled(JSON.parse(savedValue));
+        }
+      } catch (e) {
+        console.log('Failed to load background toggle setting', e);
+      }
+    };
+    loadBackgroundSetting();
+  }, []);
+
+  const toggleSwitch = async () => {
+    const newValue = !isEnabled;
+    setIsEnabled(newValue);
+    try {
+      await AsyncStorage.setItem('backgroundEnabled', JSON.stringify(newValue));
+    } catch (e) {
+      console.log('Failed to save background toggle setting', e);
+    }
+  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -23,11 +127,10 @@ const BackgroundSettingsScreen = ({ navigation }) => {
       >
         <View style={styles.headerContainer}>
           <TouchableOpacity onPress={() => navigation.goBack()}>
-            <Icon name="arrow-back" size={24} color="#fff" />
+            <Icon name="arrow-back" size={24} color="#fff" marginBottom="52" />
           </TouchableOpacity>
           <Text style={styles.header}>Background</Text>
         </View>
-
 
         <View style={styles.switchContainer}>
           <Text style={styles.label}>Allow app to run{'\n'}in the background</Text>
@@ -57,11 +160,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#fff',
     marginBottom: 60,
-    marginTop: -29,
-    marginLeft: 30
+    marginTop: 1,
+    marginLeft: 10
   },
   switchContainer: {
-    backgroundColor: '#ffffff', // 👈 Solid white
+    backgroundColor: '#ffffff',
     padding: 15,
     borderRadius: 15,
     flexDirection: 'row',
@@ -69,10 +172,15 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   label: {
-    color: '#000', // 👈 Changed to black for better contrast
+    color: '#000',
     fontSize: 16,
     flex: 1,
     flexWrap: 'wrap',
+  },
+  headerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    marginBottom: 10,
   },
 });
 
