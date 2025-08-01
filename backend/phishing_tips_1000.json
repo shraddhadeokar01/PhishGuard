@@ -1,0 +1,5004 @@
+{
+  "tips": [
+    {
+      "id": 1,
+      "title": "Verify the Sender #1",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 2,
+      "title": "Don't Click Suspicious Links #2",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 3,
+      "title": "Look for HTTPS #3",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 4,
+      "title": "Use Two-Factor Authentication #4",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 5,
+      "title": "Don't Share OTPs #5",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 6,
+      "title": "Watch for Spelling Errors #6",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 7,
+      "title": "Avoid Urgency Traps #7",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 8,
+      "title": "Use Antivirus Software #8",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 9,
+      "title": "Be Wary of Attachments #9",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 10,
+      "title": "Educate Yourself Regularly #10",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 11,
+      "title": "Check Link Destinations #11",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 12,
+      "title": "Use Spam Filters #12",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 13,
+      "title": "Cross-Check with Official Sites #13",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 14,
+      "title": "Avoid Public Wi-Fi for Transactions #14",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 15,
+      "title": "Inspect Login Pages #15",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 16,
+      "title": "Report Suspicious Messages #16",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 17,
+      "title": "Avoid Downloading from Unknown Sources #17",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 18,
+      "title": "Update Your Software #18",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 19,
+      "title": "Never Share Bank Details Online #19",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 20,
+      "title": "Use a Password Manager #20",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 21,
+      "title": "Verify the Sender #21",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 22,
+      "title": "Don't Click Suspicious Links #22",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 23,
+      "title": "Look for HTTPS #23",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 24,
+      "title": "Use Two-Factor Authentication #24",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 25,
+      "title": "Don't Share OTPs #25",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 26,
+      "title": "Watch for Spelling Errors #26",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 27,
+      "title": "Avoid Urgency Traps #27",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 28,
+      "title": "Use Antivirus Software #28",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 29,
+      "title": "Be Wary of Attachments #29",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 30,
+      "title": "Educate Yourself Regularly #30",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 31,
+      "title": "Check Link Destinations #31",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 32,
+      "title": "Use Spam Filters #32",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 33,
+      "title": "Cross-Check with Official Sites #33",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 34,
+      "title": "Avoid Public Wi-Fi for Transactions #34",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 35,
+      "title": "Inspect Login Pages #35",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 36,
+      "title": "Report Suspicious Messages #36",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 37,
+      "title": "Avoid Downloading from Unknown Sources #37",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 38,
+      "title": "Update Your Software #38",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 39,
+      "title": "Never Share Bank Details Online #39",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 40,
+      "title": "Use a Password Manager #40",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 41,
+      "title": "Verify the Sender #41",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 42,
+      "title": "Don't Click Suspicious Links #42",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 43,
+      "title": "Look for HTTPS #43",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 44,
+      "title": "Use Two-Factor Authentication #44",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 45,
+      "title": "Don't Share OTPs #45",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 46,
+      "title": "Watch for Spelling Errors #46",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 47,
+      "title": "Avoid Urgency Traps #47",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 48,
+      "title": "Use Antivirus Software #48",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 49,
+      "title": "Be Wary of Attachments #49",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 50,
+      "title": "Educate Yourself Regularly #50",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 51,
+      "title": "Check Link Destinations #51",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 52,
+      "title": "Use Spam Filters #52",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 53,
+      "title": "Cross-Check with Official Sites #53",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 54,
+      "title": "Avoid Public Wi-Fi for Transactions #54",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 55,
+      "title": "Inspect Login Pages #55",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 56,
+      "title": "Report Suspicious Messages #56",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 57,
+      "title": "Avoid Downloading from Unknown Sources #57",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 58,
+      "title": "Update Your Software #58",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 59,
+      "title": "Never Share Bank Details Online #59",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 60,
+      "title": "Use a Password Manager #60",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 61,
+      "title": "Verify the Sender #61",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 62,
+      "title": "Don't Click Suspicious Links #62",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 63,
+      "title": "Look for HTTPS #63",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 64,
+      "title": "Use Two-Factor Authentication #64",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 65,
+      "title": "Don't Share OTPs #65",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 66,
+      "title": "Watch for Spelling Errors #66",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 67,
+      "title": "Avoid Urgency Traps #67",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 68,
+      "title": "Use Antivirus Software #68",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 69,
+      "title": "Be Wary of Attachments #69",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 70,
+      "title": "Educate Yourself Regularly #70",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 71,
+      "title": "Check Link Destinations #71",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 72,
+      "title": "Use Spam Filters #72",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 73,
+      "title": "Cross-Check with Official Sites #73",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 74,
+      "title": "Avoid Public Wi-Fi for Transactions #74",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 75,
+      "title": "Inspect Login Pages #75",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 76,
+      "title": "Report Suspicious Messages #76",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 77,
+      "title": "Avoid Downloading from Unknown Sources #77",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 78,
+      "title": "Update Your Software #78",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 79,
+      "title": "Never Share Bank Details Online #79",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 80,
+      "title": "Use a Password Manager #80",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 81,
+      "title": "Verify the Sender #81",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 82,
+      "title": "Don't Click Suspicious Links #82",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 83,
+      "title": "Look for HTTPS #83",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 84,
+      "title": "Use Two-Factor Authentication #84",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 85,
+      "title": "Don't Share OTPs #85",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 86,
+      "title": "Watch for Spelling Errors #86",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 87,
+      "title": "Avoid Urgency Traps #87",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 88,
+      "title": "Use Antivirus Software #88",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 89,
+      "title": "Be Wary of Attachments #89",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 90,
+      "title": "Educate Yourself Regularly #90",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 91,
+      "title": "Check Link Destinations #91",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 92,
+      "title": "Use Spam Filters #92",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 93,
+      "title": "Cross-Check with Official Sites #93",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 94,
+      "title": "Avoid Public Wi-Fi for Transactions #94",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 95,
+      "title": "Inspect Login Pages #95",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 96,
+      "title": "Report Suspicious Messages #96",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 97,
+      "title": "Avoid Downloading from Unknown Sources #97",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 98,
+      "title": "Update Your Software #98",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 99,
+      "title": "Never Share Bank Details Online #99",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 100,
+      "title": "Use a Password Manager #100",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 101,
+      "title": "Verify the Sender #101",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 102,
+      "title": "Don't Click Suspicious Links #102",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 103,
+      "title": "Look for HTTPS #103",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 104,
+      "title": "Use Two-Factor Authentication #104",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 105,
+      "title": "Don't Share OTPs #105",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 106,
+      "title": "Watch for Spelling Errors #106",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 107,
+      "title": "Avoid Urgency Traps #107",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 108,
+      "title": "Use Antivirus Software #108",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 109,
+      "title": "Be Wary of Attachments #109",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 110,
+      "title": "Educate Yourself Regularly #110",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 111,
+      "title": "Check Link Destinations #111",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 112,
+      "title": "Use Spam Filters #112",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 113,
+      "title": "Cross-Check with Official Sites #113",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 114,
+      "title": "Avoid Public Wi-Fi for Transactions #114",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 115,
+      "title": "Inspect Login Pages #115",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 116,
+      "title": "Report Suspicious Messages #116",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 117,
+      "title": "Avoid Downloading from Unknown Sources #117",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 118,
+      "title": "Update Your Software #118",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 119,
+      "title": "Never Share Bank Details Online #119",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 120,
+      "title": "Use a Password Manager #120",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 121,
+      "title": "Verify the Sender #121",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 122,
+      "title": "Don't Click Suspicious Links #122",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 123,
+      "title": "Look for HTTPS #123",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 124,
+      "title": "Use Two-Factor Authentication #124",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 125,
+      "title": "Don't Share OTPs #125",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 126,
+      "title": "Watch for Spelling Errors #126",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 127,
+      "title": "Avoid Urgency Traps #127",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 128,
+      "title": "Use Antivirus Software #128",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 129,
+      "title": "Be Wary of Attachments #129",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 130,
+      "title": "Educate Yourself Regularly #130",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 131,
+      "title": "Check Link Destinations #131",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 132,
+      "title": "Use Spam Filters #132",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 133,
+      "title": "Cross-Check with Official Sites #133",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 134,
+      "title": "Avoid Public Wi-Fi for Transactions #134",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 135,
+      "title": "Inspect Login Pages #135",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 136,
+      "title": "Report Suspicious Messages #136",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 137,
+      "title": "Avoid Downloading from Unknown Sources #137",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 138,
+      "title": "Update Your Software #138",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 139,
+      "title": "Never Share Bank Details Online #139",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 140,
+      "title": "Use a Password Manager #140",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 141,
+      "title": "Verify the Sender #141",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 142,
+      "title": "Don't Click Suspicious Links #142",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 143,
+      "title": "Look for HTTPS #143",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 144,
+      "title": "Use Two-Factor Authentication #144",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 145,
+      "title": "Don't Share OTPs #145",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 146,
+      "title": "Watch for Spelling Errors #146",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 147,
+      "title": "Avoid Urgency Traps #147",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 148,
+      "title": "Use Antivirus Software #148",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 149,
+      "title": "Be Wary of Attachments #149",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 150,
+      "title": "Educate Yourself Regularly #150",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 151,
+      "title": "Check Link Destinations #151",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 152,
+      "title": "Use Spam Filters #152",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 153,
+      "title": "Cross-Check with Official Sites #153",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 154,
+      "title": "Avoid Public Wi-Fi for Transactions #154",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 155,
+      "title": "Inspect Login Pages #155",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 156,
+      "title": "Report Suspicious Messages #156",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 157,
+      "title": "Avoid Downloading from Unknown Sources #157",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 158,
+      "title": "Update Your Software #158",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 159,
+      "title": "Never Share Bank Details Online #159",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 160,
+      "title": "Use a Password Manager #160",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 161,
+      "title": "Verify the Sender #161",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 162,
+      "title": "Don't Click Suspicious Links #162",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 163,
+      "title": "Look for HTTPS #163",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 164,
+      "title": "Use Two-Factor Authentication #164",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 165,
+      "title": "Don't Share OTPs #165",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 166,
+      "title": "Watch for Spelling Errors #166",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 167,
+      "title": "Avoid Urgency Traps #167",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 168,
+      "title": "Use Antivirus Software #168",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 169,
+      "title": "Be Wary of Attachments #169",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 170,
+      "title": "Educate Yourself Regularly #170",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 171,
+      "title": "Check Link Destinations #171",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 172,
+      "title": "Use Spam Filters #172",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 173,
+      "title": "Cross-Check with Official Sites #173",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 174,
+      "title": "Avoid Public Wi-Fi for Transactions #174",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 175,
+      "title": "Inspect Login Pages #175",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 176,
+      "title": "Report Suspicious Messages #176",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 177,
+      "title": "Avoid Downloading from Unknown Sources #177",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 178,
+      "title": "Update Your Software #178",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 179,
+      "title": "Never Share Bank Details Online #179",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 180,
+      "title": "Use a Password Manager #180",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 181,
+      "title": "Verify the Sender #181",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 182,
+      "title": "Don't Click Suspicious Links #182",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 183,
+      "title": "Look for HTTPS #183",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 184,
+      "title": "Use Two-Factor Authentication #184",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 185,
+      "title": "Don't Share OTPs #185",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 186,
+      "title": "Watch for Spelling Errors #186",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 187,
+      "title": "Avoid Urgency Traps #187",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 188,
+      "title": "Use Antivirus Software #188",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 189,
+      "title": "Be Wary of Attachments #189",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 190,
+      "title": "Educate Yourself Regularly #190",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 191,
+      "title": "Check Link Destinations #191",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 192,
+      "title": "Use Spam Filters #192",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 193,
+      "title": "Cross-Check with Official Sites #193",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 194,
+      "title": "Avoid Public Wi-Fi for Transactions #194",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 195,
+      "title": "Inspect Login Pages #195",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 196,
+      "title": "Report Suspicious Messages #196",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 197,
+      "title": "Avoid Downloading from Unknown Sources #197",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 198,
+      "title": "Update Your Software #198",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 199,
+      "title": "Never Share Bank Details Online #199",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 200,
+      "title": "Use a Password Manager #200",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 201,
+      "title": "Verify the Sender #201",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 202,
+      "title": "Don't Click Suspicious Links #202",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 203,
+      "title": "Look for HTTPS #203",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 204,
+      "title": "Use Two-Factor Authentication #204",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 205,
+      "title": "Don't Share OTPs #205",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 206,
+      "title": "Watch for Spelling Errors #206",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 207,
+      "title": "Avoid Urgency Traps #207",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 208,
+      "title": "Use Antivirus Software #208",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 209,
+      "title": "Be Wary of Attachments #209",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 210,
+      "title": "Educate Yourself Regularly #210",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 211,
+      "title": "Check Link Destinations #211",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 212,
+      "title": "Use Spam Filters #212",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 213,
+      "title": "Cross-Check with Official Sites #213",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 214,
+      "title": "Avoid Public Wi-Fi for Transactions #214",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 215,
+      "title": "Inspect Login Pages #215",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 216,
+      "title": "Report Suspicious Messages #216",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 217,
+      "title": "Avoid Downloading from Unknown Sources #217",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 218,
+      "title": "Update Your Software #218",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 219,
+      "title": "Never Share Bank Details Online #219",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 220,
+      "title": "Use a Password Manager #220",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 221,
+      "title": "Verify the Sender #221",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 222,
+      "title": "Don't Click Suspicious Links #222",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 223,
+      "title": "Look for HTTPS #223",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 224,
+      "title": "Use Two-Factor Authentication #224",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 225,
+      "title": "Don't Share OTPs #225",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 226,
+      "title": "Watch for Spelling Errors #226",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 227,
+      "title": "Avoid Urgency Traps #227",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 228,
+      "title": "Use Antivirus Software #228",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 229,
+      "title": "Be Wary of Attachments #229",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 230,
+      "title": "Educate Yourself Regularly #230",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 231,
+      "title": "Check Link Destinations #231",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 232,
+      "title": "Use Spam Filters #232",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 233,
+      "title": "Cross-Check with Official Sites #233",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 234,
+      "title": "Avoid Public Wi-Fi for Transactions #234",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 235,
+      "title": "Inspect Login Pages #235",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 236,
+      "title": "Report Suspicious Messages #236",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 237,
+      "title": "Avoid Downloading from Unknown Sources #237",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 238,
+      "title": "Update Your Software #238",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 239,
+      "title": "Never Share Bank Details Online #239",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 240,
+      "title": "Use a Password Manager #240",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 241,
+      "title": "Verify the Sender #241",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 242,
+      "title": "Don't Click Suspicious Links #242",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 243,
+      "title": "Look for HTTPS #243",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 244,
+      "title": "Use Two-Factor Authentication #244",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 245,
+      "title": "Don't Share OTPs #245",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 246,
+      "title": "Watch for Spelling Errors #246",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 247,
+      "title": "Avoid Urgency Traps #247",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 248,
+      "title": "Use Antivirus Software #248",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 249,
+      "title": "Be Wary of Attachments #249",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 250,
+      "title": "Educate Yourself Regularly #250",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 251,
+      "title": "Check Link Destinations #251",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 252,
+      "title": "Use Spam Filters #252",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 253,
+      "title": "Cross-Check with Official Sites #253",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 254,
+      "title": "Avoid Public Wi-Fi for Transactions #254",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 255,
+      "title": "Inspect Login Pages #255",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 256,
+      "title": "Report Suspicious Messages #256",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 257,
+      "title": "Avoid Downloading from Unknown Sources #257",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 258,
+      "title": "Update Your Software #258",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 259,
+      "title": "Never Share Bank Details Online #259",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 260,
+      "title": "Use a Password Manager #260",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 261,
+      "title": "Verify the Sender #261",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 262,
+      "title": "Don't Click Suspicious Links #262",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 263,
+      "title": "Look for HTTPS #263",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 264,
+      "title": "Use Two-Factor Authentication #264",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 265,
+      "title": "Don't Share OTPs #265",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 266,
+      "title": "Watch for Spelling Errors #266",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 267,
+      "title": "Avoid Urgency Traps #267",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 268,
+      "title": "Use Antivirus Software #268",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 269,
+      "title": "Be Wary of Attachments #269",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 270,
+      "title": "Educate Yourself Regularly #270",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 271,
+      "title": "Check Link Destinations #271",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 272,
+      "title": "Use Spam Filters #272",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 273,
+      "title": "Cross-Check with Official Sites #273",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 274,
+      "title": "Avoid Public Wi-Fi for Transactions #274",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 275,
+      "title": "Inspect Login Pages #275",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 276,
+      "title": "Report Suspicious Messages #276",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 277,
+      "title": "Avoid Downloading from Unknown Sources #277",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 278,
+      "title": "Update Your Software #278",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 279,
+      "title": "Never Share Bank Details Online #279",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 280,
+      "title": "Use a Password Manager #280",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 281,
+      "title": "Verify the Sender #281",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 282,
+      "title": "Don't Click Suspicious Links #282",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 283,
+      "title": "Look for HTTPS #283",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 284,
+      "title": "Use Two-Factor Authentication #284",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 285,
+      "title": "Don't Share OTPs #285",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 286,
+      "title": "Watch for Spelling Errors #286",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 287,
+      "title": "Avoid Urgency Traps #287",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 288,
+      "title": "Use Antivirus Software #288",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 289,
+      "title": "Be Wary of Attachments #289",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 290,
+      "title": "Educate Yourself Regularly #290",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 291,
+      "title": "Check Link Destinations #291",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 292,
+      "title": "Use Spam Filters #292",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 293,
+      "title": "Cross-Check with Official Sites #293",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 294,
+      "title": "Avoid Public Wi-Fi for Transactions #294",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 295,
+      "title": "Inspect Login Pages #295",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 296,
+      "title": "Report Suspicious Messages #296",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 297,
+      "title": "Avoid Downloading from Unknown Sources #297",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 298,
+      "title": "Update Your Software #298",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 299,
+      "title": "Never Share Bank Details Online #299",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 300,
+      "title": "Use a Password Manager #300",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 301,
+      "title": "Verify the Sender #301",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 302,
+      "title": "Don't Click Suspicious Links #302",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 303,
+      "title": "Look for HTTPS #303",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 304,
+      "title": "Use Two-Factor Authentication #304",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 305,
+      "title": "Don't Share OTPs #305",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 306,
+      "title": "Watch for Spelling Errors #306",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 307,
+      "title": "Avoid Urgency Traps #307",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 308,
+      "title": "Use Antivirus Software #308",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 309,
+      "title": "Be Wary of Attachments #309",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 310,
+      "title": "Educate Yourself Regularly #310",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 311,
+      "title": "Check Link Destinations #311",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 312,
+      "title": "Use Spam Filters #312",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 313,
+      "title": "Cross-Check with Official Sites #313",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 314,
+      "title": "Avoid Public Wi-Fi for Transactions #314",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 315,
+      "title": "Inspect Login Pages #315",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 316,
+      "title": "Report Suspicious Messages #316",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 317,
+      "title": "Avoid Downloading from Unknown Sources #317",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 318,
+      "title": "Update Your Software #318",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 319,
+      "title": "Never Share Bank Details Online #319",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 320,
+      "title": "Use a Password Manager #320",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 321,
+      "title": "Verify the Sender #321",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 322,
+      "title": "Don't Click Suspicious Links #322",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 323,
+      "title": "Look for HTTPS #323",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 324,
+      "title": "Use Two-Factor Authentication #324",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 325,
+      "title": "Don't Share OTPs #325",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 326,
+      "title": "Watch for Spelling Errors #326",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 327,
+      "title": "Avoid Urgency Traps #327",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 328,
+      "title": "Use Antivirus Software #328",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 329,
+      "title": "Be Wary of Attachments #329",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 330,
+      "title": "Educate Yourself Regularly #330",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 331,
+      "title": "Check Link Destinations #331",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 332,
+      "title": "Use Spam Filters #332",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 333,
+      "title": "Cross-Check with Official Sites #333",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 334,
+      "title": "Avoid Public Wi-Fi for Transactions #334",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 335,
+      "title": "Inspect Login Pages #335",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 336,
+      "title": "Report Suspicious Messages #336",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 337,
+      "title": "Avoid Downloading from Unknown Sources #337",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 338,
+      "title": "Update Your Software #338",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 339,
+      "title": "Never Share Bank Details Online #339",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 340,
+      "title": "Use a Password Manager #340",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 341,
+      "title": "Verify the Sender #341",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 342,
+      "title": "Don't Click Suspicious Links #342",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 343,
+      "title": "Look for HTTPS #343",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 344,
+      "title": "Use Two-Factor Authentication #344",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 345,
+      "title": "Don't Share OTPs #345",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 346,
+      "title": "Watch for Spelling Errors #346",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 347,
+      "title": "Avoid Urgency Traps #347",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 348,
+      "title": "Use Antivirus Software #348",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 349,
+      "title": "Be Wary of Attachments #349",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 350,
+      "title": "Educate Yourself Regularly #350",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 351,
+      "title": "Check Link Destinations #351",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 352,
+      "title": "Use Spam Filters #352",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 353,
+      "title": "Cross-Check with Official Sites #353",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 354,
+      "title": "Avoid Public Wi-Fi for Transactions #354",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 355,
+      "title": "Inspect Login Pages #355",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 356,
+      "title": "Report Suspicious Messages #356",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 357,
+      "title": "Avoid Downloading from Unknown Sources #357",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 358,
+      "title": "Update Your Software #358",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 359,
+      "title": "Never Share Bank Details Online #359",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 360,
+      "title": "Use a Password Manager #360",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 361,
+      "title": "Verify the Sender #361",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 362,
+      "title": "Don't Click Suspicious Links #362",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 363,
+      "title": "Look for HTTPS #363",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 364,
+      "title": "Use Two-Factor Authentication #364",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 365,
+      "title": "Don't Share OTPs #365",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 366,
+      "title": "Watch for Spelling Errors #366",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 367,
+      "title": "Avoid Urgency Traps #367",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 368,
+      "title": "Use Antivirus Software #368",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 369,
+      "title": "Be Wary of Attachments #369",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 370,
+      "title": "Educate Yourself Regularly #370",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 371,
+      "title": "Check Link Destinations #371",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 372,
+      "title": "Use Spam Filters #372",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 373,
+      "title": "Cross-Check with Official Sites #373",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 374,
+      "title": "Avoid Public Wi-Fi for Transactions #374",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 375,
+      "title": "Inspect Login Pages #375",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 376,
+      "title": "Report Suspicious Messages #376",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 377,
+      "title": "Avoid Downloading from Unknown Sources #377",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 378,
+      "title": "Update Your Software #378",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 379,
+      "title": "Never Share Bank Details Online #379",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 380,
+      "title": "Use a Password Manager #380",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 381,
+      "title": "Verify the Sender #381",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 382,
+      "title": "Don't Click Suspicious Links #382",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 383,
+      "title": "Look for HTTPS #383",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 384,
+      "title": "Use Two-Factor Authentication #384",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 385,
+      "title": "Don't Share OTPs #385",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 386,
+      "title": "Watch for Spelling Errors #386",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 387,
+      "title": "Avoid Urgency Traps #387",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 388,
+      "title": "Use Antivirus Software #388",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 389,
+      "title": "Be Wary of Attachments #389",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 390,
+      "title": "Educate Yourself Regularly #390",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 391,
+      "title": "Check Link Destinations #391",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 392,
+      "title": "Use Spam Filters #392",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 393,
+      "title": "Cross-Check with Official Sites #393",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 394,
+      "title": "Avoid Public Wi-Fi for Transactions #394",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 395,
+      "title": "Inspect Login Pages #395",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 396,
+      "title": "Report Suspicious Messages #396",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 397,
+      "title": "Avoid Downloading from Unknown Sources #397",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 398,
+      "title": "Update Your Software #398",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 399,
+      "title": "Never Share Bank Details Online #399",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 400,
+      "title": "Use a Password Manager #400",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 401,
+      "title": "Verify the Sender #401",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 402,
+      "title": "Don't Click Suspicious Links #402",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 403,
+      "title": "Look for HTTPS #403",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 404,
+      "title": "Use Two-Factor Authentication #404",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 405,
+      "title": "Don't Share OTPs #405",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 406,
+      "title": "Watch for Spelling Errors #406",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 407,
+      "title": "Avoid Urgency Traps #407",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 408,
+      "title": "Use Antivirus Software #408",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 409,
+      "title": "Be Wary of Attachments #409",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 410,
+      "title": "Educate Yourself Regularly #410",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 411,
+      "title": "Check Link Destinations #411",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 412,
+      "title": "Use Spam Filters #412",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 413,
+      "title": "Cross-Check with Official Sites #413",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 414,
+      "title": "Avoid Public Wi-Fi for Transactions #414",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 415,
+      "title": "Inspect Login Pages #415",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 416,
+      "title": "Report Suspicious Messages #416",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 417,
+      "title": "Avoid Downloading from Unknown Sources #417",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 418,
+      "title": "Update Your Software #418",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 419,
+      "title": "Never Share Bank Details Online #419",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 420,
+      "title": "Use a Password Manager #420",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 421,
+      "title": "Verify the Sender #421",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 422,
+      "title": "Don't Click Suspicious Links #422",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 423,
+      "title": "Look for HTTPS #423",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 424,
+      "title": "Use Two-Factor Authentication #424",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 425,
+      "title": "Don't Share OTPs #425",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 426,
+      "title": "Watch for Spelling Errors #426",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 427,
+      "title": "Avoid Urgency Traps #427",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 428,
+      "title": "Use Antivirus Software #428",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 429,
+      "title": "Be Wary of Attachments #429",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 430,
+      "title": "Educate Yourself Regularly #430",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 431,
+      "title": "Check Link Destinations #431",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 432,
+      "title": "Use Spam Filters #432",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 433,
+      "title": "Cross-Check with Official Sites #433",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 434,
+      "title": "Avoid Public Wi-Fi for Transactions #434",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 435,
+      "title": "Inspect Login Pages #435",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 436,
+      "title": "Report Suspicious Messages #436",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 437,
+      "title": "Avoid Downloading from Unknown Sources #437",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 438,
+      "title": "Update Your Software #438",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 439,
+      "title": "Never Share Bank Details Online #439",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 440,
+      "title": "Use a Password Manager #440",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 441,
+      "title": "Verify the Sender #441",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 442,
+      "title": "Don't Click Suspicious Links #442",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 443,
+      "title": "Look for HTTPS #443",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 444,
+      "title": "Use Two-Factor Authentication #444",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 445,
+      "title": "Don't Share OTPs #445",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 446,
+      "title": "Watch for Spelling Errors #446",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 447,
+      "title": "Avoid Urgency Traps #447",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 448,
+      "title": "Use Antivirus Software #448",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 449,
+      "title": "Be Wary of Attachments #449",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 450,
+      "title": "Educate Yourself Regularly #450",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 451,
+      "title": "Check Link Destinations #451",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 452,
+      "title": "Use Spam Filters #452",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 453,
+      "title": "Cross-Check with Official Sites #453",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 454,
+      "title": "Avoid Public Wi-Fi for Transactions #454",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 455,
+      "title": "Inspect Login Pages #455",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 456,
+      "title": "Report Suspicious Messages #456",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 457,
+      "title": "Avoid Downloading from Unknown Sources #457",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 458,
+      "title": "Update Your Software #458",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 459,
+      "title": "Never Share Bank Details Online #459",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 460,
+      "title": "Use a Password Manager #460",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 461,
+      "title": "Verify the Sender #461",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 462,
+      "title": "Don't Click Suspicious Links #462",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 463,
+      "title": "Look for HTTPS #463",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 464,
+      "title": "Use Two-Factor Authentication #464",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 465,
+      "title": "Don't Share OTPs #465",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 466,
+      "title": "Watch for Spelling Errors #466",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 467,
+      "title": "Avoid Urgency Traps #467",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 468,
+      "title": "Use Antivirus Software #468",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 469,
+      "title": "Be Wary of Attachments #469",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 470,
+      "title": "Educate Yourself Regularly #470",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 471,
+      "title": "Check Link Destinations #471",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 472,
+      "title": "Use Spam Filters #472",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 473,
+      "title": "Cross-Check with Official Sites #473",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 474,
+      "title": "Avoid Public Wi-Fi for Transactions #474",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 475,
+      "title": "Inspect Login Pages #475",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 476,
+      "title": "Report Suspicious Messages #476",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 477,
+      "title": "Avoid Downloading from Unknown Sources #477",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 478,
+      "title": "Update Your Software #478",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 479,
+      "title": "Never Share Bank Details Online #479",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 480,
+      "title": "Use a Password Manager #480",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 481,
+      "title": "Verify the Sender #481",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 482,
+      "title": "Don't Click Suspicious Links #482",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 483,
+      "title": "Look for HTTPS #483",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 484,
+      "title": "Use Two-Factor Authentication #484",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 485,
+      "title": "Don't Share OTPs #485",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 486,
+      "title": "Watch for Spelling Errors #486",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 487,
+      "title": "Avoid Urgency Traps #487",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 488,
+      "title": "Use Antivirus Software #488",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 489,
+      "title": "Be Wary of Attachments #489",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 490,
+      "title": "Educate Yourself Regularly #490",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 491,
+      "title": "Check Link Destinations #491",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 492,
+      "title": "Use Spam Filters #492",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 493,
+      "title": "Cross-Check with Official Sites #493",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 494,
+      "title": "Avoid Public Wi-Fi for Transactions #494",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 495,
+      "title": "Inspect Login Pages #495",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 496,
+      "title": "Report Suspicious Messages #496",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 497,
+      "title": "Avoid Downloading from Unknown Sources #497",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 498,
+      "title": "Update Your Software #498",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 499,
+      "title": "Never Share Bank Details Online #499",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 500,
+      "title": "Use a Password Manager #500",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 501,
+      "title": "Verify the Sender #501",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 502,
+      "title": "Don't Click Suspicious Links #502",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 503,
+      "title": "Look for HTTPS #503",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 504,
+      "title": "Use Two-Factor Authentication #504",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 505,
+      "title": "Don't Share OTPs #505",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 506,
+      "title": "Watch for Spelling Errors #506",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 507,
+      "title": "Avoid Urgency Traps #507",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 508,
+      "title": "Use Antivirus Software #508",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 509,
+      "title": "Be Wary of Attachments #509",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 510,
+      "title": "Educate Yourself Regularly #510",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 511,
+      "title": "Check Link Destinations #511",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 512,
+      "title": "Use Spam Filters #512",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 513,
+      "title": "Cross-Check with Official Sites #513",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 514,
+      "title": "Avoid Public Wi-Fi for Transactions #514",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 515,
+      "title": "Inspect Login Pages #515",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 516,
+      "title": "Report Suspicious Messages #516",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 517,
+      "title": "Avoid Downloading from Unknown Sources #517",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 518,
+      "title": "Update Your Software #518",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 519,
+      "title": "Never Share Bank Details Online #519",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 520,
+      "title": "Use a Password Manager #520",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 521,
+      "title": "Verify the Sender #521",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 522,
+      "title": "Don't Click Suspicious Links #522",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 523,
+      "title": "Look for HTTPS #523",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 524,
+      "title": "Use Two-Factor Authentication #524",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 525,
+      "title": "Don't Share OTPs #525",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 526,
+      "title": "Watch for Spelling Errors #526",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 527,
+      "title": "Avoid Urgency Traps #527",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 528,
+      "title": "Use Antivirus Software #528",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 529,
+      "title": "Be Wary of Attachments #529",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 530,
+      "title": "Educate Yourself Regularly #530",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 531,
+      "title": "Check Link Destinations #531",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 532,
+      "title": "Use Spam Filters #532",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 533,
+      "title": "Cross-Check with Official Sites #533",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 534,
+      "title": "Avoid Public Wi-Fi for Transactions #534",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 535,
+      "title": "Inspect Login Pages #535",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 536,
+      "title": "Report Suspicious Messages #536",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 537,
+      "title": "Avoid Downloading from Unknown Sources #537",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 538,
+      "title": "Update Your Software #538",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 539,
+      "title": "Never Share Bank Details Online #539",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 540,
+      "title": "Use a Password Manager #540",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 541,
+      "title": "Verify the Sender #541",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 542,
+      "title": "Don't Click Suspicious Links #542",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 543,
+      "title": "Look for HTTPS #543",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 544,
+      "title": "Use Two-Factor Authentication #544",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 545,
+      "title": "Don't Share OTPs #545",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 546,
+      "title": "Watch for Spelling Errors #546",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 547,
+      "title": "Avoid Urgency Traps #547",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 548,
+      "title": "Use Antivirus Software #548",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 549,
+      "title": "Be Wary of Attachments #549",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 550,
+      "title": "Educate Yourself Regularly #550",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 551,
+      "title": "Check Link Destinations #551",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 552,
+      "title": "Use Spam Filters #552",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 553,
+      "title": "Cross-Check with Official Sites #553",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 554,
+      "title": "Avoid Public Wi-Fi for Transactions #554",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 555,
+      "title": "Inspect Login Pages #555",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 556,
+      "title": "Report Suspicious Messages #556",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 557,
+      "title": "Avoid Downloading from Unknown Sources #557",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 558,
+      "title": "Update Your Software #558",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 559,
+      "title": "Never Share Bank Details Online #559",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 560,
+      "title": "Use a Password Manager #560",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 561,
+      "title": "Verify the Sender #561",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 562,
+      "title": "Don't Click Suspicious Links #562",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 563,
+      "title": "Look for HTTPS #563",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 564,
+      "title": "Use Two-Factor Authentication #564",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 565,
+      "title": "Don't Share OTPs #565",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 566,
+      "title": "Watch for Spelling Errors #566",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 567,
+      "title": "Avoid Urgency Traps #567",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 568,
+      "title": "Use Antivirus Software #568",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 569,
+      "title": "Be Wary of Attachments #569",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 570,
+      "title": "Educate Yourself Regularly #570",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 571,
+      "title": "Check Link Destinations #571",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 572,
+      "title": "Use Spam Filters #572",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 573,
+      "title": "Cross-Check with Official Sites #573",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 574,
+      "title": "Avoid Public Wi-Fi for Transactions #574",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 575,
+      "title": "Inspect Login Pages #575",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 576,
+      "title": "Report Suspicious Messages #576",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 577,
+      "title": "Avoid Downloading from Unknown Sources #577",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 578,
+      "title": "Update Your Software #578",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 579,
+      "title": "Never Share Bank Details Online #579",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 580,
+      "title": "Use a Password Manager #580",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 581,
+      "title": "Verify the Sender #581",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 582,
+      "title": "Don't Click Suspicious Links #582",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 583,
+      "title": "Look for HTTPS #583",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 584,
+      "title": "Use Two-Factor Authentication #584",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 585,
+      "title": "Don't Share OTPs #585",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 586,
+      "title": "Watch for Spelling Errors #586",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 587,
+      "title": "Avoid Urgency Traps #587",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 588,
+      "title": "Use Antivirus Software #588",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 589,
+      "title": "Be Wary of Attachments #589",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 590,
+      "title": "Educate Yourself Regularly #590",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 591,
+      "title": "Check Link Destinations #591",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 592,
+      "title": "Use Spam Filters #592",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 593,
+      "title": "Cross-Check with Official Sites #593",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 594,
+      "title": "Avoid Public Wi-Fi for Transactions #594",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 595,
+      "title": "Inspect Login Pages #595",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 596,
+      "title": "Report Suspicious Messages #596",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 597,
+      "title": "Avoid Downloading from Unknown Sources #597",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 598,
+      "title": "Update Your Software #598",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 599,
+      "title": "Never Share Bank Details Online #599",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 600,
+      "title": "Use a Password Manager #600",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 601,
+      "title": "Verify the Sender #601",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 602,
+      "title": "Don't Click Suspicious Links #602",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 603,
+      "title": "Look for HTTPS #603",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 604,
+      "title": "Use Two-Factor Authentication #604",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 605,
+      "title": "Don't Share OTPs #605",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 606,
+      "title": "Watch for Spelling Errors #606",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 607,
+      "title": "Avoid Urgency Traps #607",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 608,
+      "title": "Use Antivirus Software #608",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 609,
+      "title": "Be Wary of Attachments #609",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 610,
+      "title": "Educate Yourself Regularly #610",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 611,
+      "title": "Check Link Destinations #611",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 612,
+      "title": "Use Spam Filters #612",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 613,
+      "title": "Cross-Check with Official Sites #613",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 614,
+      "title": "Avoid Public Wi-Fi for Transactions #614",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 615,
+      "title": "Inspect Login Pages #615",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 616,
+      "title": "Report Suspicious Messages #616",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 617,
+      "title": "Avoid Downloading from Unknown Sources #617",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 618,
+      "title": "Update Your Software #618",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 619,
+      "title": "Never Share Bank Details Online #619",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 620,
+      "title": "Use a Password Manager #620",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 621,
+      "title": "Verify the Sender #621",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 622,
+      "title": "Don't Click Suspicious Links #622",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 623,
+      "title": "Look for HTTPS #623",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 624,
+      "title": "Use Two-Factor Authentication #624",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 625,
+      "title": "Don't Share OTPs #625",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 626,
+      "title": "Watch for Spelling Errors #626",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 627,
+      "title": "Avoid Urgency Traps #627",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 628,
+      "title": "Use Antivirus Software #628",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 629,
+      "title": "Be Wary of Attachments #629",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 630,
+      "title": "Educate Yourself Regularly #630",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 631,
+      "title": "Check Link Destinations #631",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 632,
+      "title": "Use Spam Filters #632",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 633,
+      "title": "Cross-Check with Official Sites #633",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 634,
+      "title": "Avoid Public Wi-Fi for Transactions #634",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 635,
+      "title": "Inspect Login Pages #635",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 636,
+      "title": "Report Suspicious Messages #636",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 637,
+      "title": "Avoid Downloading from Unknown Sources #637",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 638,
+      "title": "Update Your Software #638",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 639,
+      "title": "Never Share Bank Details Online #639",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 640,
+      "title": "Use a Password Manager #640",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 641,
+      "title": "Verify the Sender #641",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 642,
+      "title": "Don't Click Suspicious Links #642",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 643,
+      "title": "Look for HTTPS #643",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 644,
+      "title": "Use Two-Factor Authentication #644",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 645,
+      "title": "Don't Share OTPs #645",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 646,
+      "title": "Watch for Spelling Errors #646",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 647,
+      "title": "Avoid Urgency Traps #647",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 648,
+      "title": "Use Antivirus Software #648",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 649,
+      "title": "Be Wary of Attachments #649",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 650,
+      "title": "Educate Yourself Regularly #650",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 651,
+      "title": "Check Link Destinations #651",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 652,
+      "title": "Use Spam Filters #652",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 653,
+      "title": "Cross-Check with Official Sites #653",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 654,
+      "title": "Avoid Public Wi-Fi for Transactions #654",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 655,
+      "title": "Inspect Login Pages #655",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 656,
+      "title": "Report Suspicious Messages #656",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 657,
+      "title": "Avoid Downloading from Unknown Sources #657",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 658,
+      "title": "Update Your Software #658",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 659,
+      "title": "Never Share Bank Details Online #659",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 660,
+      "title": "Use a Password Manager #660",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 661,
+      "title": "Verify the Sender #661",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 662,
+      "title": "Don't Click Suspicious Links #662",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 663,
+      "title": "Look for HTTPS #663",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 664,
+      "title": "Use Two-Factor Authentication #664",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 665,
+      "title": "Don't Share OTPs #665",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 666,
+      "title": "Watch for Spelling Errors #666",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 667,
+      "title": "Avoid Urgency Traps #667",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 668,
+      "title": "Use Antivirus Software #668",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 669,
+      "title": "Be Wary of Attachments #669",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 670,
+      "title": "Educate Yourself Regularly #670",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 671,
+      "title": "Check Link Destinations #671",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 672,
+      "title": "Use Spam Filters #672",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 673,
+      "title": "Cross-Check with Official Sites #673",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 674,
+      "title": "Avoid Public Wi-Fi for Transactions #674",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 675,
+      "title": "Inspect Login Pages #675",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 676,
+      "title": "Report Suspicious Messages #676",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 677,
+      "title": "Avoid Downloading from Unknown Sources #677",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 678,
+      "title": "Update Your Software #678",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 679,
+      "title": "Never Share Bank Details Online #679",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 680,
+      "title": "Use a Password Manager #680",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 681,
+      "title": "Verify the Sender #681",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 682,
+      "title": "Don't Click Suspicious Links #682",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 683,
+      "title": "Look for HTTPS #683",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 684,
+      "title": "Use Two-Factor Authentication #684",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 685,
+      "title": "Don't Share OTPs #685",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 686,
+      "title": "Watch for Spelling Errors #686",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 687,
+      "title": "Avoid Urgency Traps #687",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 688,
+      "title": "Use Antivirus Software #688",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 689,
+      "title": "Be Wary of Attachments #689",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 690,
+      "title": "Educate Yourself Regularly #690",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 691,
+      "title": "Check Link Destinations #691",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 692,
+      "title": "Use Spam Filters #692",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 693,
+      "title": "Cross-Check with Official Sites #693",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 694,
+      "title": "Avoid Public Wi-Fi for Transactions #694",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 695,
+      "title": "Inspect Login Pages #695",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 696,
+      "title": "Report Suspicious Messages #696",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 697,
+      "title": "Avoid Downloading from Unknown Sources #697",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 698,
+      "title": "Update Your Software #698",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 699,
+      "title": "Never Share Bank Details Online #699",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 700,
+      "title": "Use a Password Manager #700",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 701,
+      "title": "Verify the Sender #701",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 702,
+      "title": "Don't Click Suspicious Links #702",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 703,
+      "title": "Look for HTTPS #703",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 704,
+      "title": "Use Two-Factor Authentication #704",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 705,
+      "title": "Don't Share OTPs #705",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 706,
+      "title": "Watch for Spelling Errors #706",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 707,
+      "title": "Avoid Urgency Traps #707",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 708,
+      "title": "Use Antivirus Software #708",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 709,
+      "title": "Be Wary of Attachments #709",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 710,
+      "title": "Educate Yourself Regularly #710",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 711,
+      "title": "Check Link Destinations #711",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 712,
+      "title": "Use Spam Filters #712",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 713,
+      "title": "Cross-Check with Official Sites #713",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 714,
+      "title": "Avoid Public Wi-Fi for Transactions #714",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 715,
+      "title": "Inspect Login Pages #715",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 716,
+      "title": "Report Suspicious Messages #716",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 717,
+      "title": "Avoid Downloading from Unknown Sources #717",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 718,
+      "title": "Update Your Software #718",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 719,
+      "title": "Never Share Bank Details Online #719",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 720,
+      "title": "Use a Password Manager #720",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 721,
+      "title": "Verify the Sender #721",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 722,
+      "title": "Don't Click Suspicious Links #722",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 723,
+      "title": "Look for HTTPS #723",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 724,
+      "title": "Use Two-Factor Authentication #724",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 725,
+      "title": "Don't Share OTPs #725",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 726,
+      "title": "Watch for Spelling Errors #726",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 727,
+      "title": "Avoid Urgency Traps #727",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 728,
+      "title": "Use Antivirus Software #728",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 729,
+      "title": "Be Wary of Attachments #729",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 730,
+      "title": "Educate Yourself Regularly #730",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 731,
+      "title": "Check Link Destinations #731",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 732,
+      "title": "Use Spam Filters #732",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 733,
+      "title": "Cross-Check with Official Sites #733",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 734,
+      "title": "Avoid Public Wi-Fi for Transactions #734",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 735,
+      "title": "Inspect Login Pages #735",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 736,
+      "title": "Report Suspicious Messages #736",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 737,
+      "title": "Avoid Downloading from Unknown Sources #737",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 738,
+      "title": "Update Your Software #738",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 739,
+      "title": "Never Share Bank Details Online #739",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 740,
+      "title": "Use a Password Manager #740",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 741,
+      "title": "Verify the Sender #741",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 742,
+      "title": "Don't Click Suspicious Links #742",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 743,
+      "title": "Look for HTTPS #743",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 744,
+      "title": "Use Two-Factor Authentication #744",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 745,
+      "title": "Don't Share OTPs #745",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 746,
+      "title": "Watch for Spelling Errors #746",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 747,
+      "title": "Avoid Urgency Traps #747",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 748,
+      "title": "Use Antivirus Software #748",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 749,
+      "title": "Be Wary of Attachments #749",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 750,
+      "title": "Educate Yourself Regularly #750",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 751,
+      "title": "Check Link Destinations #751",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 752,
+      "title": "Use Spam Filters #752",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 753,
+      "title": "Cross-Check with Official Sites #753",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 754,
+      "title": "Avoid Public Wi-Fi for Transactions #754",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 755,
+      "title": "Inspect Login Pages #755",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 756,
+      "title": "Report Suspicious Messages #756",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 757,
+      "title": "Avoid Downloading from Unknown Sources #757",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 758,
+      "title": "Update Your Software #758",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 759,
+      "title": "Never Share Bank Details Online #759",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 760,
+      "title": "Use a Password Manager #760",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 761,
+      "title": "Verify the Sender #761",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 762,
+      "title": "Don't Click Suspicious Links #762",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 763,
+      "title": "Look for HTTPS #763",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 764,
+      "title": "Use Two-Factor Authentication #764",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 765,
+      "title": "Don't Share OTPs #765",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 766,
+      "title": "Watch for Spelling Errors #766",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 767,
+      "title": "Avoid Urgency Traps #767",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 768,
+      "title": "Use Antivirus Software #768",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 769,
+      "title": "Be Wary of Attachments #769",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 770,
+      "title": "Educate Yourself Regularly #770",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 771,
+      "title": "Check Link Destinations #771",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 772,
+      "title": "Use Spam Filters #772",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 773,
+      "title": "Cross-Check with Official Sites #773",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 774,
+      "title": "Avoid Public Wi-Fi for Transactions #774",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 775,
+      "title": "Inspect Login Pages #775",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 776,
+      "title": "Report Suspicious Messages #776",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 777,
+      "title": "Avoid Downloading from Unknown Sources #777",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 778,
+      "title": "Update Your Software #778",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 779,
+      "title": "Never Share Bank Details Online #779",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 780,
+      "title": "Use a Password Manager #780",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 781,
+      "title": "Verify the Sender #781",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 782,
+      "title": "Don't Click Suspicious Links #782",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 783,
+      "title": "Look for HTTPS #783",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 784,
+      "title": "Use Two-Factor Authentication #784",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 785,
+      "title": "Don't Share OTPs #785",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 786,
+      "title": "Watch for Spelling Errors #786",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 787,
+      "title": "Avoid Urgency Traps #787",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 788,
+      "title": "Use Antivirus Software #788",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 789,
+      "title": "Be Wary of Attachments #789",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 790,
+      "title": "Educate Yourself Regularly #790",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 791,
+      "title": "Check Link Destinations #791",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 792,
+      "title": "Use Spam Filters #792",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 793,
+      "title": "Cross-Check with Official Sites #793",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 794,
+      "title": "Avoid Public Wi-Fi for Transactions #794",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 795,
+      "title": "Inspect Login Pages #795",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 796,
+      "title": "Report Suspicious Messages #796",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 797,
+      "title": "Avoid Downloading from Unknown Sources #797",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 798,
+      "title": "Update Your Software #798",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 799,
+      "title": "Never Share Bank Details Online #799",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 800,
+      "title": "Use a Password Manager #800",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 801,
+      "title": "Verify the Sender #801",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 802,
+      "title": "Don't Click Suspicious Links #802",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 803,
+      "title": "Look for HTTPS #803",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 804,
+      "title": "Use Two-Factor Authentication #804",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 805,
+      "title": "Don't Share OTPs #805",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 806,
+      "title": "Watch for Spelling Errors #806",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 807,
+      "title": "Avoid Urgency Traps #807",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 808,
+      "title": "Use Antivirus Software #808",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 809,
+      "title": "Be Wary of Attachments #809",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 810,
+      "title": "Educate Yourself Regularly #810",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 811,
+      "title": "Check Link Destinations #811",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 812,
+      "title": "Use Spam Filters #812",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 813,
+      "title": "Cross-Check with Official Sites #813",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 814,
+      "title": "Avoid Public Wi-Fi for Transactions #814",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 815,
+      "title": "Inspect Login Pages #815",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 816,
+      "title": "Report Suspicious Messages #816",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 817,
+      "title": "Avoid Downloading from Unknown Sources #817",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 818,
+      "title": "Update Your Software #818",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 819,
+      "title": "Never Share Bank Details Online #819",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 820,
+      "title": "Use a Password Manager #820",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 821,
+      "title": "Verify the Sender #821",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 822,
+      "title": "Don't Click Suspicious Links #822",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 823,
+      "title": "Look for HTTPS #823",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 824,
+      "title": "Use Two-Factor Authentication #824",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 825,
+      "title": "Don't Share OTPs #825",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 826,
+      "title": "Watch for Spelling Errors #826",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 827,
+      "title": "Avoid Urgency Traps #827",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 828,
+      "title": "Use Antivirus Software #828",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 829,
+      "title": "Be Wary of Attachments #829",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 830,
+      "title": "Educate Yourself Regularly #830",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 831,
+      "title": "Check Link Destinations #831",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 832,
+      "title": "Use Spam Filters #832",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 833,
+      "title": "Cross-Check with Official Sites #833",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 834,
+      "title": "Avoid Public Wi-Fi for Transactions #834",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 835,
+      "title": "Inspect Login Pages #835",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 836,
+      "title": "Report Suspicious Messages #836",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 837,
+      "title": "Avoid Downloading from Unknown Sources #837",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 838,
+      "title": "Update Your Software #838",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 839,
+      "title": "Never Share Bank Details Online #839",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 840,
+      "title": "Use a Password Manager #840",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 841,
+      "title": "Verify the Sender #841",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 842,
+      "title": "Don't Click Suspicious Links #842",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 843,
+      "title": "Look for HTTPS #843",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 844,
+      "title": "Use Two-Factor Authentication #844",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 845,
+      "title": "Don't Share OTPs #845",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 846,
+      "title": "Watch for Spelling Errors #846",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 847,
+      "title": "Avoid Urgency Traps #847",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 848,
+      "title": "Use Antivirus Software #848",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 849,
+      "title": "Be Wary of Attachments #849",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 850,
+      "title": "Educate Yourself Regularly #850",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 851,
+      "title": "Check Link Destinations #851",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 852,
+      "title": "Use Spam Filters #852",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 853,
+      "title": "Cross-Check with Official Sites #853",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 854,
+      "title": "Avoid Public Wi-Fi for Transactions #854",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 855,
+      "title": "Inspect Login Pages #855",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 856,
+      "title": "Report Suspicious Messages #856",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 857,
+      "title": "Avoid Downloading from Unknown Sources #857",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 858,
+      "title": "Update Your Software #858",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 859,
+      "title": "Never Share Bank Details Online #859",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 860,
+      "title": "Use a Password Manager #860",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 861,
+      "title": "Verify the Sender #861",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 862,
+      "title": "Don't Click Suspicious Links #862",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 863,
+      "title": "Look for HTTPS #863",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 864,
+      "title": "Use Two-Factor Authentication #864",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 865,
+      "title": "Don't Share OTPs #865",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 866,
+      "title": "Watch for Spelling Errors #866",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 867,
+      "title": "Avoid Urgency Traps #867",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 868,
+      "title": "Use Antivirus Software #868",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 869,
+      "title": "Be Wary of Attachments #869",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 870,
+      "title": "Educate Yourself Regularly #870",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 871,
+      "title": "Check Link Destinations #871",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 872,
+      "title": "Use Spam Filters #872",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 873,
+      "title": "Cross-Check with Official Sites #873",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 874,
+      "title": "Avoid Public Wi-Fi for Transactions #874",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 875,
+      "title": "Inspect Login Pages #875",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 876,
+      "title": "Report Suspicious Messages #876",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 877,
+      "title": "Avoid Downloading from Unknown Sources #877",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 878,
+      "title": "Update Your Software #878",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 879,
+      "title": "Never Share Bank Details Online #879",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 880,
+      "title": "Use a Password Manager #880",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 881,
+      "title": "Verify the Sender #881",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 882,
+      "title": "Don't Click Suspicious Links #882",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 883,
+      "title": "Look for HTTPS #883",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 884,
+      "title": "Use Two-Factor Authentication #884",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 885,
+      "title": "Don't Share OTPs #885",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 886,
+      "title": "Watch for Spelling Errors #886",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 887,
+      "title": "Avoid Urgency Traps #887",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 888,
+      "title": "Use Antivirus Software #888",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 889,
+      "title": "Be Wary of Attachments #889",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 890,
+      "title": "Educate Yourself Regularly #890",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 891,
+      "title": "Check Link Destinations #891",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 892,
+      "title": "Use Spam Filters #892",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 893,
+      "title": "Cross-Check with Official Sites #893",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 894,
+      "title": "Avoid Public Wi-Fi for Transactions #894",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 895,
+      "title": "Inspect Login Pages #895",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 896,
+      "title": "Report Suspicious Messages #896",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 897,
+      "title": "Avoid Downloading from Unknown Sources #897",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 898,
+      "title": "Update Your Software #898",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 899,
+      "title": "Never Share Bank Details Online #899",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 900,
+      "title": "Use a Password Manager #900",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 901,
+      "title": "Verify the Sender #901",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 902,
+      "title": "Don't Click Suspicious Links #902",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 903,
+      "title": "Look for HTTPS #903",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 904,
+      "title": "Use Two-Factor Authentication #904",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 905,
+      "title": "Don't Share OTPs #905",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 906,
+      "title": "Watch for Spelling Errors #906",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 907,
+      "title": "Avoid Urgency Traps #907",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 908,
+      "title": "Use Antivirus Software #908",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 909,
+      "title": "Be Wary of Attachments #909",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 910,
+      "title": "Educate Yourself Regularly #910",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 911,
+      "title": "Check Link Destinations #911",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 912,
+      "title": "Use Spam Filters #912",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 913,
+      "title": "Cross-Check with Official Sites #913",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 914,
+      "title": "Avoid Public Wi-Fi for Transactions #914",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 915,
+      "title": "Inspect Login Pages #915",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 916,
+      "title": "Report Suspicious Messages #916",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 917,
+      "title": "Avoid Downloading from Unknown Sources #917",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 918,
+      "title": "Update Your Software #918",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 919,
+      "title": "Never Share Bank Details Online #919",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 920,
+      "title": "Use a Password Manager #920",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 921,
+      "title": "Verify the Sender #921",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 922,
+      "title": "Don't Click Suspicious Links #922",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 923,
+      "title": "Look for HTTPS #923",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 924,
+      "title": "Use Two-Factor Authentication #924",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 925,
+      "title": "Don't Share OTPs #925",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 926,
+      "title": "Watch for Spelling Errors #926",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 927,
+      "title": "Avoid Urgency Traps #927",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 928,
+      "title": "Use Antivirus Software #928",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 929,
+      "title": "Be Wary of Attachments #929",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 930,
+      "title": "Educate Yourself Regularly #930",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 931,
+      "title": "Check Link Destinations #931",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 932,
+      "title": "Use Spam Filters #932",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 933,
+      "title": "Cross-Check with Official Sites #933",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 934,
+      "title": "Avoid Public Wi-Fi for Transactions #934",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 935,
+      "title": "Inspect Login Pages #935",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 936,
+      "title": "Report Suspicious Messages #936",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 937,
+      "title": "Avoid Downloading from Unknown Sources #937",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 938,
+      "title": "Update Your Software #938",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 939,
+      "title": "Never Share Bank Details Online #939",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 940,
+      "title": "Use a Password Manager #940",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 941,
+      "title": "Verify the Sender #941",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 942,
+      "title": "Don't Click Suspicious Links #942",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 943,
+      "title": "Look for HTTPS #943",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 944,
+      "title": "Use Two-Factor Authentication #944",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 945,
+      "title": "Don't Share OTPs #945",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 946,
+      "title": "Watch for Spelling Errors #946",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 947,
+      "title": "Avoid Urgency Traps #947",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 948,
+      "title": "Use Antivirus Software #948",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 949,
+      "title": "Be Wary of Attachments #949",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 950,
+      "title": "Educate Yourself Regularly #950",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 951,
+      "title": "Check Link Destinations #951",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 952,
+      "title": "Use Spam Filters #952",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 953,
+      "title": "Cross-Check with Official Sites #953",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 954,
+      "title": "Avoid Public Wi-Fi for Transactions #954",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 955,
+      "title": "Inspect Login Pages #955",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 956,
+      "title": "Report Suspicious Messages #956",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 957,
+      "title": "Avoid Downloading from Unknown Sources #957",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 958,
+      "title": "Update Your Software #958",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 959,
+      "title": "Never Share Bank Details Online #959",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 960,
+      "title": "Use a Password Manager #960",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 961,
+      "title": "Verify the Sender #961",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 962,
+      "title": "Don't Click Suspicious Links #962",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 963,
+      "title": "Look for HTTPS #963",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 964,
+      "title": "Use Two-Factor Authentication #964",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 965,
+      "title": "Don't Share OTPs #965",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 966,
+      "title": "Watch for Spelling Errors #966",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 967,
+      "title": "Avoid Urgency Traps #967",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 968,
+      "title": "Use Antivirus Software #968",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 969,
+      "title": "Be Wary of Attachments #969",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 970,
+      "title": "Educate Yourself Regularly #970",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 971,
+      "title": "Check Link Destinations #971",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 972,
+      "title": "Use Spam Filters #972",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 973,
+      "title": "Cross-Check with Official Sites #973",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 974,
+      "title": "Avoid Public Wi-Fi for Transactions #974",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 975,
+      "title": "Inspect Login Pages #975",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 976,
+      "title": "Report Suspicious Messages #976",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 977,
+      "title": "Avoid Downloading from Unknown Sources #977",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 978,
+      "title": "Update Your Software #978",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 979,
+      "title": "Never Share Bank Details Online #979",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 980,
+      "title": "Use a Password Manager #980",
+      "description": "Use trusted password managers to create and store secure passwords."
+    },
+    {
+      "id": 981,
+      "title": "Verify the Sender #981",
+      "description": "Check the email address or phone number of the sender. Phishers often use look-alike addresses."
+    },
+    {
+      "id": 982,
+      "title": "Don't Click Suspicious Links #982",
+      "description": "Avoid clicking on links from unknown or unexpected messages."
+    },
+    {
+      "id": 983,
+      "title": "Look for HTTPS #983",
+      "description": "Ensure the URL starts with https:// before entering sensitive information."
+    },
+    {
+      "id": 984,
+      "title": "Use Two-Factor Authentication #984",
+      "description": "Enable 2FA wherever possible for added account security."
+    },
+    {
+      "id": 985,
+      "title": "Don't Share OTPs #985",
+      "description": "Never share your one-time passwords with anyone."
+    },
+    {
+      "id": 986,
+      "title": "Watch for Spelling Errors #986",
+      "description": "Phishing emails often contain spelling and grammatical mistakes."
+    },
+    {
+      "id": 987,
+      "title": "Avoid Urgency Traps #987",
+      "description": "Phishing messages often create false urgency to manipulate you."
+    },
+    {
+      "id": 988,
+      "title": "Use Antivirus Software #988",
+      "description": "Keep a good antivirus program active to detect malicious files."
+    },
+    {
+      "id": 989,
+      "title": "Be Wary of Attachments #989",
+      "description": "Do not open attachments from unknown sources."
+    },
+    {
+      "id": 990,
+      "title": "Educate Yourself Regularly #990",
+      "description": "Stay updated on the latest phishing techniques and trends."
+    },
+    {
+      "id": 991,
+      "title": "Check Link Destinations #991",
+      "description": "Hover over links to see the actual URL before clicking."
+    },
+    {
+      "id": 992,
+      "title": "Use Spam Filters #992",
+      "description": "Enable spam filters in your email client to reduce unwanted messages."
+    },
+    {
+      "id": 993,
+      "title": "Cross-Check with Official Sites #993",
+      "description": "When in doubt, contact the organization through their official website."
+    },
+    {
+      "id": 994,
+      "title": "Avoid Public Wi-Fi for Transactions #994",
+      "description": "Do not conduct financial transactions on public Wi-Fi."
+    },
+    {
+      "id": 995,
+      "title": "Inspect Login Pages #995",
+      "description": "Fake websites often mimic login pages\u2014double check the domain."
+    },
+    {
+      "id": 996,
+      "title": "Report Suspicious Messages #996",
+      "description": "Report phishing attempts to your email provider or security team."
+    },
+    {
+      "id": 997,
+      "title": "Avoid Downloading from Unknown Sources #997",
+      "description": "Only download apps or files from official platforms."
+    },
+    {
+      "id": 998,
+      "title": "Update Your Software #998",
+      "description": "Keep your operating system and apps up to date for security patches."
+    },
+    {
+      "id": 999,
+      "title": "Never Share Bank Details Online #999",
+      "description": "Do not share account or card details through unsecured platforms."
+    },
+    {
+      "id": 1000,
+      "title": "Use a Password Manager #1000",
+      "description": "Use trusted password managers to create and store secure passwords."
+    }
+  ]
+}

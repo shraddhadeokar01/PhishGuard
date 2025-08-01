@@ -141,12 +141,14 @@ const SplashScreen = ({ navigation }) => {
  useEffect(() => {
   const checkLogin = async () => {
     const identifier = await AsyncStorage.getItem('userIdentifier');
+    setTimeout(()=> {
     if (identifier) {
       navigation.replace('HomeScreen');
     } else {
       navigation.replace('LoginScreen');
     }
-  };
+  },1500);
+}
   checkLogin();
 }, []);
 
