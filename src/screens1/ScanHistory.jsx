@@ -52,7 +52,7 @@
 // //   },
 // //   listContainer: {
 // //     paddingBottom: 20,
-   
+
 // //   },
 // //   linkBox: {
 // //     backgroundColor: 'rgba(255, 255, 255, 0.8)',
@@ -267,9 +267,18 @@ const ScanHistoryScreen = ({ navigation }) => {
               <TouchableOpacity
                 style={{ backgroundColor: '#007bff', paddingHorizontal: 20, paddingVertical: 10, borderRadius: 5, marginBottom: 10 }}
                 onPress={() => {
-                  Linking.openURL(selectedLink);
+                  let urlToOpen = selectedLink;
+                  if (!urlToOpen.startsWith('http://') && !urlToOpen.startsWith('https://')) {
+                    urlToOpen = 'https://' + urlToOpen;
+                  }
+
+                  Linking.openURL(urlToOpen).catch(err => {
+                    console.error("Failed to open URL:", err);
+                  });
+
                   setLinkModalVisible(false);
                 }}
+
               >
                 <Text style={{ color: 'white', fontWeight: 'bold' }}>Open in Browser</Text>
               </TouchableOpacity>

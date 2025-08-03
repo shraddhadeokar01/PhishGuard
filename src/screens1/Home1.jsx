@@ -1145,9 +1145,9 @@ import Icon1 from 'react-native-vector-icons/FontAwesome';
 import Icon2 from 'react-native-vector-icons/Ionicons';
 import Icon3 from 'react-native-vector-icons/Ionicons';
 import Icon4 from 'react-native-vector-icons/FontAwesome';
-import { decode as atob, encode as btoa } from 'base-64';
 import database from '@react-native-firebase/database';
 import auth from '@react-native-firebase/auth';
+import { DEEPSEEK_API_KEY } from '@env';
 
 const HomeScreen = ({ navigation }) => {
   const [link, setLink] = useState('');
@@ -1170,7 +1170,6 @@ const HomeScreen = ({ navigation }) => {
         }
       });
 
-    // Optional: auto sign in anonymously if not signed in
     const unsubscribe = auth().onAuthStateChanged(async user => {
       if (!user) {
         await auth().signInAnonymously();
@@ -1189,41 +1188,43 @@ const HomeScreen = ({ navigation }) => {
     }
 
     try {
-      const trimmedLink = link.trim();
-      const encodedUrl = btoa(trimmedLink);
+      const prompt = `Is the following URL a phishing website or a safe one? Just reply with either "phishing" or "safe" only. Do not add anything else.\n\nURL: ${link.trim()}`;
 
-      const snapshot = await database()
-        .ref(`phishing_links/${encodedUrl}`)
-        .once('value');
+      const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${DEEPSEEK_API_KEY}`,
+        },
+        body: JSON.stringify({
+          model: 'deepseek-chat',
+          messages: [{ role: 'user', content: prompt }],
+        }),
+      });
 
-      const isPhishingLink = snapshot.exists();
-      const data = snapshot.val();
+      const result = await response.json();
+      const reply = result.choices?.[0]?.message?.content?.toLowerCase();
 
-      setIsPhishing(isPhishingLink);
+      const isPhishingDetected = reply.includes('phishing');
+      setIsPhishing(isPhishingDetected);
       setModalMessage(
-        isPhishingLink
-          ? `⚠ Phishing Link Detected!\n\nURL: ${data.url}\nStatus: ${data.status}\nTags: ${data.tags}\nReported: ${data.date_added}`
+        isPhishingDetected
+          ? `⚠ Phishing Link Detected!\n\nURL: ${link.trim()}`
           : '✅ Safe Link\n\nNo phishing threat found for this URL.'
       );
       setModalVisible(true);
 
-      // ✅ Save scan to Firebase
       const user = auth().currentUser;
-      console.log('👤 User:', user)
       if (user) {
         const ref = database().ref(`/scan_history/${user.uid}`).push();
         await ref.set({
-          url: trimmedLink,
-          isPhishing: isPhishingLink,
-          scannedAt: new Date().toISOString()
+          url: link.trim(),
+          isPhishing: isPhishingDetected,
+          scannedAt: new Date().toISOString(),
         });
-        console.log('✅ Scan saved to Firebase')
-      }else {
-        console.log('❌ No user logged in. History not saved.')
       }
-
     } catch (error) {
-      console.error('Error scanning link:', error);
+      console.error('DeepSeek API Error:', error);
       setIsPhishing(true);
       setModalMessage('Error occurred during scan. Please try again.');
       setModalVisible(true);
@@ -1234,12 +1235,11 @@ const HomeScreen = ({ navigation }) => {
     if (!link.trim()) {
       setIsPhishing(true);
       setModalMessage('No link to report!');
-      setModalVisible(true);
     } else {
       setIsPhishing(false);
       setModalMessage('Link reported!\n\n' + link);
-      setModalVisible(true);
     }
+    setModalVisible(true);
   };
 
   const handleFullScan = () => {
@@ -1295,23 +1295,22 @@ const HomeScreen = ({ navigation }) => {
           </View>
 
           <View style={styles.bottomBar}>
-            <TouchableOpacity onPress={() => { setActiveTab('HomeScreen'); }}>
+            <TouchableOpacity onPress={() => setActiveTab('HomeScreen')}>
               <Icon1 name="home" size={26} color={activeTab === 'HomeScreen' ? '#13376eff' : 'gray'} />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => { setActiveTab('Settings'); navigation.navigate('SettingsScreen') }}>
+            <TouchableOpacity onPress={() => { setActiveTab('Settings'); navigation.navigate('SettingsScreen'); }}>
               <Icon2 name="settings" size={26} color={activeTab === 'Settings' ? '#13376eff' : 'gray'} />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => { setActiveTab('Chat'); navigation.navigate('ChatBotScreen') }}>
+            <TouchableOpacity onPress={() => { setActiveTab('Chat'); navigation.navigate('ChatBotScreen'); }}>
               <Icon3 name="chatbox-ellipses" size={26} color={activeTab === 'Chat' ? '#13376eff' : 'gray'} />
             </TouchableOpacity>
-            <TouchableOpacity onPress={() => { setActiveTab('Profile'); navigation.navigate('ProfileScreen') }}>
+            <TouchableOpacity onPress={() => { setActiveTab('Profile'); navigation.navigate('ProfileScreen'); }}>
               <Icon4 name="user-circle-o" size={26} color={activeTab === 'Profile' ? '#13376eff' : 'gray'} />
             </TouchableOpacity>
           </View>
         </ScrollView>
       </KeyboardAvoidingView>
 
-      {/* Modal */}
       <Modal
         animationType="fade"
         transparent={true}
@@ -1328,7 +1327,6 @@ const HomeScreen = ({ navigation }) => {
               >
                 <Text style={styles.modalButtonText}>OK</Text>
               </TouchableOpacity>
-
               {isPhishing && (
                 <TouchableOpacity
                   style={[styles.modalButton, { backgroundColor: '#ffcccc' }]}
@@ -1349,6 +1347,7 @@ const HomeScreen = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
+  // styles unchanged...
   bg: { flex: 1, backgroundColor: '#001f3f' },
   container: { flexGrow: 1, padding: 20, alignItems: 'center', justifyContent: 'flex-start' },
   heading: { fontSize: 24, fontWeight: 'bold', color: '#fff', marginTop: 30, marginBottom: 10 },
