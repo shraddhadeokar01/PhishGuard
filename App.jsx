@@ -9,10 +9,6 @@ import React from 'react';
 import { Text, View, Button, TextInput, TouchableOpacity, Alert, StyleSheet, Style } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-
-//import EditProfileScreen from './src/screens/EditProfile';
-
 import LoginScreen from './src/screens1/Log1';
 import SignUpScreen from './src/screens1/Sign1.jsx';
 import HomeScreen from './src/screens1/Home1.jsx';

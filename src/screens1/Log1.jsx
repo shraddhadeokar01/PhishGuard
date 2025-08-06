@@ -171,6 +171,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 import React, { useState, useEffect } from 'react';
 import {
   View,
@@ -379,6 +393,224 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
 });
+
+
+// import React, { useState, useEffect } from 'react';
+// import {
+//   View,
+//   Text,
+//   TextInput,
+//   TouchableOpacity,
+//   StyleSheet,
+//   Image,
+//   ImageBackground,
+//   ScrollView,
+//   Alert,
+// } from 'react-native';
+// import Icon from 'react-native-vector-icons/Entypo';
+// import IconUser from 'react-native-vector-icons/FontAwesome';
+// import auth from '@react-native-firebase/auth';
+// import database from '@react-native-firebase/database';
+// import AsyncStorage from '@react-native-async-storage/async-storage';
+
+// const LoginScreen = ({ navigation }) => {
+//   const [showPassword, setShowPassword] = useState(false);
+//   const [username, setUsername] = useState('');
+//   const [password, setPassword] = useState('');
+
+//   const handleLogin = async () => {
+//     if (!username || !password) {
+//       Alert.alert('Warning ⚠️', 'Please fill in all fields');
+//       return;
+//     }
+
+//     try {
+//       const email = username.trim().toLowerCase();
+//       const pass = password.trim();
+
+//       const userCredential = await auth().signInWithEmailAndPassword(email, pass);
+//       const { uid } = userCredential.user;
+
+//       // Fetch additional user data from Firebase Realtime Database
+//       const snapshot = await database().ref(`/users/${uid}`).once('value');
+//       const userData = snapshot.val();
+
+//       if (!userData) {
+//         Alert.alert('Error ❌', 'User data not found in database');
+//         return;
+//       }
+
+//       // Save to AsyncStorage
+//       await AsyncStorage.setItem('currentUser', JSON.stringify(userData));
+//       await AsyncStorage.setItem('userIdentifier', userData.email || userData.contact);
+
+//       Alert.alert('Success ✅', 'Login successful');
+//       navigation.navigate('HomeScreen');
+//     } catch (error) {
+//       console.error(error);
+//       let message = 'Something went wrong';
+//       if (error.code === 'auth/user-not-found' || error.code === 'auth/wrong-password') {
+//         message = 'Invalid credentials';
+//       }
+//       Alert.alert('Login Failed ❌', message);
+//     }
+//   };
+
+//   const handleSignUp = () => {
+//     navigation.navigate('SignUpScreen');
+//   };
+
+//   useEffect(() => {
+//     const checkLoggedIn = async () => {
+//       const user = await AsyncStorage.getItem('currentUser');
+//       if (user) {
+//         navigation.replace('HomeScreen');
+//       }
+//     };
+//     checkLoggedIn();
+//   }, []);
+
+//   return (
+//     <ImageBackground
+//       source={require('../assets/background.jpg')}
+//       style={styles.background}
+//     >
+//       <ScrollView contentContainerStyle={styles.container}>
+//         <Image
+//           source={require('../assets/logo.png')}
+//           style={styles.logo}
+//         />
+//         <Text style={styles.appName}>PhishGuard</Text>
+//         <Text style={styles.header}>Welcome Back !</Text>
+
+//         <View style={styles.inputContainer}>
+//           <TextInput
+//             placeholder="Email"
+//             placeholderTextColor="#000"
+//             style={styles.inputInner}
+//             value={username}
+//             onChangeText={setUsername}
+//             autoCapitalize="none"
+//           />
+//           <IconUser name="user" size={20} color="#000" />
+//         </View>
+
+//         <View style={styles.inputContainer}>
+//           <TextInput
+//             placeholder="Password"
+//             secureTextEntry={!showPassword}
+//             placeholderTextColor="#000"
+//             style={styles.inputInner}
+//             value={password}
+//             onChangeText={setPassword}
+//           />
+//           <TouchableOpacity onPress={() => setShowPassword(!showPassword)}>
+//             <Icon name={showPassword ? 'eye' : 'eye-with-line'} size={20} color="#000" />
+//           </TouchableOpacity>
+//         </View>
+
+//         <TouchableOpacity style={styles.forgotPassword}>
+//           <Text style={styles.forgotText}>Forgotten Password ?</Text>
+//         </TouchableOpacity>
+
+//         <TouchableOpacity style={styles.button} onPress={handleLogin}>
+//           <Text style={styles.buttonText}>Login</Text>
+//         </TouchableOpacity>
+
+//         <TouchableOpacity onPress={handleSignUp}>
+//           <Text style={styles.signUpText}>
+//             Don’t have an Account? <Text style={{ color: '#fff', fontWeight: 'bold' }}>Sign Up</Text>
+//           </Text>
+//         </TouchableOpacity>
+//       </ScrollView>
+//     </ImageBackground>
+//   );
+// };
+
+// export default LoginScreen;
+
+// const styles = StyleSheet.create({
+//   background: {
+//     flex: 1,
+//     backgroundColor: '#001f3f',
+//   },
+//   container: {
+//     flexGrow: 1,
+//     padding: 20,
+//     justifyContent: 'center',
+//     alignItems: 'center',
+//   },
+//   logo: {
+//     width: 180,
+//     height: 180,
+//     resizeMode: 'contain',
+//     marginBottom: 130,
+//     marginTop: -90
+//   },
+//   appName: {
+//     color: '#fff',
+//     fontWeight: 'bold',
+//     fontSize: 30,
+//     marginBottom: 70,
+//     marginTop: -160
+//   },
+//   header: {
+//     fontSize: 20,
+//     fontWeight: 'bold',
+//     color: '#fff',
+//     marginBottom: 25,
+//     alignSelf: 'flex-start',
+//   },
+//   inputContainer: {
+//     flexDirection: 'row',
+//     backgroundColor: '#fff',
+//     borderRadius: 20,
+//     alignItems: 'center',
+//     paddingHorizontal: 15,
+//     marginBottom: 15,
+//     height: 50,
+//     width: '100%',
+//     justifyContent: 'space-between',
+//   },
+//   inputInner: {
+//     flex: 1,
+//     color: '#000',
+//   },
+//   forgotPassword: {
+//     alignSelf: 'flex-end',
+//     marginBottom: 20,
+//     marginTop: -10
+//   },
+//   forgotText: {
+//     color: '#ccc',
+//     fontSize: 13,
+//   },
+//   button: {
+//     backgroundColor: '#003B73',
+//     borderRadius: 20,
+//     paddingVertical: 12,
+//     alignItems: 'center',
+//     marginBottom: 15,
+//     width: '100%',
+//   },
+//   buttonText: {
+//     color: '#fff',
+//     fontWeight: 'bold',
+//   },
+//   signUpText: {
+//     color: '#ccc',
+//     textAlign: 'center',
+//     marginTop: 10,
+//   },
+// });
+
+
+
+
+
+
+
+
 
 
 
