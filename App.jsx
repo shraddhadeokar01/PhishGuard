@@ -1,9 +1,4 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+
 
 import React from 'react';
 import { Text, View, Button, TextInput, TouchableOpacity, Alert, StyleSheet, Style } from 'react-native';
@@ -52,7 +47,5 @@ const App = () => {
 
 }
 export default App;
-
-
 
 

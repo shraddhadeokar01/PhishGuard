@@ -42,7 +42,8 @@ const HomeScreen = ({ navigation }) => {
 
     const unsubscribe = auth().onAuthStateChanged(async user => {
       if (!user) {
-        await auth().signInAnonymously();
+      await auth().signInAnonymously();
+       navigation.replace('LoginScreen');
       }
     });
 

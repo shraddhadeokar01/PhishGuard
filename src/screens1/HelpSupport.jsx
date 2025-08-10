@@ -5,7 +5,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 const HelpSupportScreen = ({ navigation }) => {
   return (
     <ImageBackground
-      source={require('../assets/background1.jpg')} // Replace with your image path
+      source={require('../assets/background1.jpg')} 
       style={styles.background}
     >
       <View style={styles.headerContainer}>
