@@ -29,9 +29,6 @@ const SettingsScreen = ({ navigation }) => {
       case 'Background':
         navigation.navigate('BackgroundSettingsScreen');
         break;
-      case 'Scan History':
-        navigation.navigate('ScanHistoryScreen');
-        break;
       case 'Change Password':
         navigation.navigate('ChangePasswordScreen');
         break;
@@ -65,7 +62,6 @@ const SettingsScreen = ({ navigation }) => {
   const settingsOptions = [
     'Notifications',
     'Background',
-    'Scan History',
     'Change Password',
     'Help & Support',
     'About Us',

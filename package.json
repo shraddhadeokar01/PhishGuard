@@ -23,6 +23,8 @@
     "axios": "^1.10.0",
     "base-64": "^1.0.0",
     "firebase": "^11.10.0",
+    "lottie-ios": "^4.5.1",
+    "lottie-react-native": "^7.3.2",
     "react": "19.1.0",
     "react-native": "0.80.1",
     "react-native-dotenv": "^3.4.11",

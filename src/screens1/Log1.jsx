@@ -15,6 +15,7 @@ import IconUser from 'react-native-vector-icons/FontAwesome';
 import axios from 'axios';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
+
 const URL = 'https://phishguard-78f53-default-rtdb.firebaseio.com';
 
 const LoginScreen = ({ navigation }) => {
@@ -133,7 +134,7 @@ const LoginScreen = ({ navigation }) => {
           </TouchableOpacity>
         </View>
 
-        <TouchableOpacity style={styles.forgotPassword}>
+        <TouchableOpacity style={styles.forgotPassword} onPress={() => navigation.navigate('ForgetPasswordScreen')}>
           <Text style={styles.forgotText}>Forgotten Password ?</Text>
         </TouchableOpacity>
 

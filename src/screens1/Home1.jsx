@@ -1,3 +1,363 @@
+// import React, { useState, useEffect } from 'react';
+// import {
+//   View,
+//   Text,
+//   TextInput,
+//   TouchableOpacity,
+//   StyleSheet,
+//   ScrollView,
+//   ImageBackground,
+//   Platform,
+//   KeyboardAvoidingView,
+//   Modal,
+// } from 'react-native';
+// import Icon1 from 'react-native-vector-icons/FontAwesome';
+// import Icon2 from 'react-native-vector-icons/Ionicons';
+// import Icon3 from 'react-native-vector-icons/Ionicons';
+// import Icon4 from 'react-native-vector-icons/FontAwesome';
+// import database from '@react-native-firebase/database';
+// import auth from '@react-native-firebase/auth';
+// import { DEEPSEEK_API_KEY } from '@env';
+
+// const HomeScreen = ({ navigation }) => {
+//   const [link, setLink] = useState('');
+//   const [activeTab, setActiveTab] = useState('HomeScreen');
+//   const [modalVisible, setModalVisible] = useState(false);
+//   const [isPhishing, setIsPhishing] = useState(false);
+//   const [modalMessage, setModalMessage] = useState('');
+//   const [tip, setTip] = useState(null);
+
+//   useEffect(() => {
+//     database()
+//       .ref('/phishing_tips')
+//       .once('value')
+//       .then(snapshot => {
+//         const tipsObj = snapshot.val();
+//         if (tipsObj) {
+//           const tipsArray = Object.values(tipsObj);
+//           const randomTip = tipsArray[Math.floor(Math.random() * tipsArray.length)];
+//           setTip(randomTip);
+//         }
+//       });
+
+//     const unsubscribe = auth().onAuthStateChanged(async user => {
+//       if (!user) {
+//         await auth().signInAnonymously();
+//         navigation.replace('LoginScreen');
+//       }
+//     });
+
+//     return unsubscribe;
+//   }, []);
+
+//   const handleScan = async () => {
+//     if (!link.trim()) {
+//       setIsPhishing(true);
+//       setModalMessage('Please paste a link to scan!');
+//       setModalVisible(true);
+//       return;
+//     }
+
+//     try {
+//       const prompt = `Is the following URL a phishing website or a safe one? Just reply with either "phishing" or "safe" only. Do not add anything else.\n\nURL: ${link.trim()}`;
+
+//       const response = await fetch('https://api.deepseek.com/chat/completions', {
+//         method: 'POST',
+//         headers: {
+//           'Content-Type': 'application/json',
+//           Authorization: `Bearer ${DEEPSEEK_API_KEY}`,
+//         },
+//         body: JSON.stringify({
+//           model: 'deepseek-chat',
+//           messages: [{ role: 'user', content: prompt }],
+//         }),
+//       });
+
+//       const data = await response.json(); // ✅ properly parse response
+//       const reply = data.choices?.[0]?.message?.content?.toLowerCase() || '';
+
+//       if (!reply) {
+//         throw new Error('Invalid response from DeepSeek API');
+//       }
+
+//       const isPhishingDetected = reply.includes('phishing');
+//       setIsPhishing(isPhishingDetected);
+//       setModalMessage(
+//         isPhishingDetected
+//           ? `⚠ Phishing Link Detected!\n\nURL: ${link.trim()}`
+//           : '✅ Safe Link\n\nNo phishing threat found for this URL.'
+//       );
+//       setModalVisible(true);
+
+//       const user = auth().currentUser;
+//       if (user) {
+//         const ref = database().ref(`/scan_history/${user.uid}`).push();
+//         await ref.set({
+//           url: link.trim(),
+//           isPhishing: isPhishingDetected,
+//           scannedAt: new Date().toISOString(),
+//         });
+//       }
+//     } catch (error) {
+//       console.error('DeepSeek API Error:', error);
+//       setIsPhishing(true);
+//       setModalMessage('Error occurred during scan. Please try again.');
+//       setModalVisible(true);
+//     }
+
+//   };
+
+//   const handleReport = async () => {
+//     if (!link.trim()) {
+//       setIsPhishing(true);
+//       setModalMessage('No link to report!');
+//       setModalVisible(true);
+//       return;
+//     }
+
+//     try {
+//       const user = auth().currentUser;
+
+//       if (!user) {
+//         setIsPhishing(true);
+//         setModalMessage('You must be logged in to report a link.');
+//         setModalVisible(true);
+//         return;
+//       }
+//       const reportRef = database().ref(`/reported_links/${user.uid}`).push();
+//       await reportRef.set({
+//         url: link.trim(),
+//         reportedAt: new Date().toISOString(),
+//       });
+//       setIsPhishing(false);
+//       setModalMessage('✅ Link reported successfully!\n\n' + link);
+//       setModalVisible(true);
+//       setLink('');
+//     } catch (error) {
+//       setIsPhishing(true);
+//       setModalMessage('Error reporting link: ' + error.message);
+//       setModalVisible(true);
+//     }
+//   };
+
+//   const handleFullScan = () => {
+//     setIsPhishing(false);
+//     setModalMessage('Performing full device scan...');
+//     setModalVisible(true);
+//   };
+//   return (
+//     <ImageBackground
+//       source={require('../assets/background1.jpg')}
+//       style={styles.bg}
+//       resizeMode="cover"
+//     >
+//       <KeyboardAvoidingView
+//         behavior={Platform.OS === 'ios' ? 'padding' : undefined}
+//         style={{ flex: 1 }}
+//       >
+//         <ScrollView contentContainerStyle={styles.container} keyboardShouldPersistTaps="handled">
+//           <Text style={styles.heading}>Phishing Link Scanner</Text>
+
+//           <View style={styles.card}>
+//             <TextInput
+//               style={styles.input}
+//               placeholder="Paste link here..."
+//               placeholderTextColor="#001a33"
+//               value={link}
+//               onChangeText={setLink}
+//             />
+//             <TouchableOpacity style={styles.scanButton} onPress={handleScan}>
+//               <Text style={styles.scanText}>Scan</Text>
+//             </TouchableOpacity>
+//           </View>
+
+//           <TouchableOpacity style={styles.secondaryButton} onPress={handleReport}>
+//             <Text style={styles.secondaryText}>Report above link</Text>
+//           </TouchableOpacity>
+
+//           <TouchableOpacity style={styles.secondaryButton1} onPress={handleFullScan}>
+//             <Text style={styles.secondaryText1}>Full Device Scan</Text>
+//           </TouchableOpacity>
+
+//           <View style={styles.tipsCard}>
+//             <Text style={styles.tipTitle}>Tips & Warning Section</Text>
+//             {tip ? (
+//               <>
+//                 <Text style={styles.tipText}>{tip.title}</Text>
+//                 <Text style={styles.tipText}>{tip.description}</Text>
+//               </>
+//             ) : (
+//               <Text style={styles.tipText}>Loading phishing tip...</Text>
+//             )}
+//           </View>
+
+//           <View style={styles.bottomBar}>
+//             <TouchableOpacity onPress={() => setActiveTab('HomeScreen')}>
+//               <Icon1 name="home" size={26} color={activeTab === 'HomeScreen' ? '#13376eff' : 'gray'} />
+//             </TouchableOpacity>
+//             <TouchableOpacity onPress={() => { setActiveTab('Settings'); navigation.navigate('SettingsScreen'); }}>
+//               <Icon2 name="settings" size={26} color={activeTab === 'Settings' ? '#13376eff' : 'gray'} />
+//             </TouchableOpacity>
+//             <TouchableOpacity onPress={() => { setActiveTab('Chat'); navigation.navigate('ChatBotScreen'); }}>
+//               <Icon3 name="chatbox-ellipses" size={26} color={activeTab === 'Chat' ? '#13376eff' : 'gray'} />
+//             </TouchableOpacity>
+//             <TouchableOpacity onPress={() => { setActiveTab('Profile'); navigation.navigate('ProfileScreen'); }}>
+//               <Icon4 name="user-circle-o" size={26} color={activeTab === 'Profile' ? '#13376eff' : 'gray'} />
+//             </TouchableOpacity>
+//           </View>
+//         </ScrollView>
+//       </KeyboardAvoidingView>
+
+//       <Modal
+//         animationType="fade"
+//         transparent={true}
+//         visible={modalVisible}
+//         onRequestClose={() => setModalVisible(false)}
+//       >
+//         <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#000000aa' }}>
+//           <View style={[styles.modalContent, { backgroundColor: isPhishing ? '#c32a2aff' : '#219124ff' }]}>
+//             <Text style={styles.modalText}>{modalMessage}</Text>
+//             <View style={{ flexDirection: 'row', justifyContent: 'space-between', gap: 10 }}>
+//               <TouchableOpacity
+//                 style={[styles.modalButton, { backgroundColor: 'white' }]}
+//                 onPress={() => setModalVisible(false)}
+//               >
+//                 <Text style={styles.modalButtonText}>OK</Text>
+//               </TouchableOpacity>
+//               {isPhishing && (
+//                 <TouchableOpacity
+//                   style={[styles.modalButton, { backgroundColor: '#ffcccc' }]}
+//                   onPress={() => {
+//                     setLink('');
+//                     setModalVisible(false);
+//                   }}
+//                 >
+//                   <Text style={[styles.modalButtonText, { color: 'red' }]}>Delete</Text>
+//                 </TouchableOpacity>
+//               )}
+//             </View>
+//           </View>
+//         </View>
+//       </Modal>
+//     </ImageBackground>
+//   );
+// };
+
+// const styles = StyleSheet.create({
+//   // styles unchanged...
+//   bg: { flex: 1, backgroundColor: '#001f3f' },
+//   container: { flexGrow: 1, padding: 20, alignItems: 'center', justifyContent: 'flex-start' },
+//   heading: { fontSize: 24, fontWeight: 'bold', color: '#fff', marginTop: 30, marginBottom: 10 },
+//   subheading: { fontSize: 16, color: '#fff', marginBottom: 20 },
+//   card: {
+//     backgroundColor: '#d6e4f5',
+//     borderRadius: 15,
+//     width: '100%',
+//     padding: 20,
+//     alignItems: 'center',
+//     marginBottom: -30,
+//     marginTop: 50
+//   },
+//   input: {
+//     backgroundColor: '#eee',
+//     width: '100%',
+//     borderRadius: 10,
+//     paddingHorizontal: 15,
+//     paddingVertical: 10,
+//     fontSize: 14,
+//     marginBottom: 15,
+//     color: 'black',
+//     borderWidth: 0.5,
+//   },
+//   scanButton: {
+//     backgroundColor: '#e0ecff',
+//     paddingHorizontal: 30,
+//     paddingVertical: 10,
+//     borderRadius: 20,
+//   },
+//   scanText: { color: '#0052cc', fontWeight: 'bold', fontSize: 14 },
+//   secondaryButton: {
+//     backgroundColor: '#b3c9e7',
+//     width: '100%',
+//     borderRadius: 15,
+//     paddingVertical: 15,
+//     alignItems: 'center',
+//     marginBottom: -45,
+//     marginTop: 70
+//   },
+//   secondaryText: { color: '#001a33', fontWeight: '600', fontSize: 15 },
+//   secondaryButton1: {
+//     backgroundColor: '#b3c9e7',
+//     width: '100%',
+//     borderRadius: 15,
+//     paddingVertical: 15,
+//     alignItems: 'center',
+//     marginBottom: -60,
+//     marginTop: 70
+//   },
+//   secondaryText1: {
+//     color: '#001a33',
+//     fontWeight: '600',
+//     fontSize: 15
+//   },
+//   tipsCard: {
+//     backgroundColor: '#d6e4f5',
+//     width: '100%',
+//     borderRadius: 15,
+//     padding: 20,
+//     marginTop: 90,
+//   },
+//   tipTitle: {
+//     fontWeight: 'bold',
+//     fontSize: 16,
+//     marginBottom: 10,
+//     color: '#001a33'
+//   },
+//   tipText: {
+//     color: '#222',
+//     fontSize: 14,
+//     marginBottom: 5
+//   },
+//   bottomBar: {
+//     position: 'absolute',
+//     bottom: 0,
+//     left: 0,
+//     right: 0,
+//     height: 55,
+//     backgroundColor: 'white',
+//     borderTopWidth: 1,
+//     flexDirection: 'row',
+//     justifyContent: 'space-around',
+//     alignItems: 'center',
+//   },
+//   modalContent: {
+//     padding: 20,
+//     borderRadius: 10,
+//     alignItems: 'center',
+//     marginHorizontal: 30,
+//   },
+//   modalText: {
+//     color: '#fff',
+//     fontSize: 16,
+//     marginBottom: 15,
+//     textAlign: 'center'
+//   },
+//   modalButton: {
+//     backgroundColor: '#ffffff',
+//     paddingVertical: 8,
+//     paddingHorizontal: 20,
+//     borderRadius: 20,
+//   },
+//   modalButtonText: {
+//     color: '#333',
+//     fontWeight: 'bold',
+//   }
+// });
+
+// export default HomeScreen;
+
+
+
 import React, { useState, useEffect } from 'react';
 import {
   View,
@@ -18,7 +378,7 @@ import Icon4 from 'react-native-vector-icons/FontAwesome';
 import database from '@react-native-firebase/database';
 import auth from '@react-native-firebase/auth';
 import { DEEPSEEK_API_KEY } from '@env';
-
+import LottieView from 'lottie-react-native'; // ✅ Lottie import 
 const HomeScreen = ({ navigation }) => {
   const [link, setLink] = useState('');
   const [activeTab, setActiveTab] = useState('HomeScreen');
@@ -26,6 +386,7 @@ const HomeScreen = ({ navigation }) => {
   const [isPhishing, setIsPhishing] = useState(false);
   const [modalMessage, setModalMessage] = useState('');
   const [tip, setTip] = useState(null);
+  const [loading, setLoading] = useState(false); // ✅ loader state
 
   useEffect(() => {
     database()
@@ -42,8 +403,8 @@ const HomeScreen = ({ navigation }) => {
 
     const unsubscribe = auth().onAuthStateChanged(async user => {
       if (!user) {
-      await auth().signInAnonymously();
-       navigation.replace('LoginScreen');
+        await auth().signInAnonymously();
+        navigation.replace('LoginScreen');
       }
     });
 
@@ -58,70 +419,87 @@ const HomeScreen = ({ navigation }) => {
       return;
     }
 
+    setLoading(true); // ✅ start loader
+
     try {
-  const prompt = `Is the following URL a phishing website or a safe one? Just reply with either "phishing" or "safe" only. Do not add anything else.\n\nURL: ${link.trim()}`;
+      const prompt = `Is the following URL a phishing website or a safe one? Just reply with either "phishing" or "safe" only. Do not add anything else.\n\nURL: ${link.trim()}`;
 
-  const response = await fetch('https://api.deepseek.com/v1/chat/completions', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${DEEPSEEK_API_KEY}`,
-    },
-    body: JSON.stringify({
-      model: 'deepseek-chat',
-      messages: [{ role: 'user', content: prompt }],
-    }),
-  });
+      const response = await fetch('https://api.deepseek.com/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: `Bearer ${DEEPSEEK_API_KEY}`,
+        },
+        body: JSON.stringify({
+          model: 'deepseek-chat',
+          messages: [{ role: 'user', content: prompt }],
+        }),
+      });
 
-  const data = await response.json(); // ✅ properly parse response
-  const reply = data.choices?.[0]?.message?.content?.toLowerCase() || '';
+      const data = await response.json();
+      const reply = data.choices?.[0]?.message?.content?.toLowerCase() || '';
 
-  if (!reply) {
-    throw new Error('Invalid response from DeepSeek API');
-  }
+      if (!reply) {
+        throw new Error('Invalid response from DeepSeek API');
+      }
 
-  const isPhishingDetected = reply.includes('phishing');
-  setIsPhishing(isPhishingDetected);
-  setModalMessage(
-    isPhishingDetected
-      ? `⚠ Phishing Link Detected!\n\nURL: ${link.trim()}`
-      : '✅ Safe Link\n\nNo phishing threat found for this URL.'
-  );
-  setModalVisible(true);
+      const isPhishingDetected = reply.includes('phishing');
+      setIsPhishing(isPhishingDetected);
+      setModalMessage(
+        isPhishingDetected
+          ? `⚠ Phishing Link Detected!\n\nURL: ${link.trim()}`
+          : '✅ Safe Link\n\nNo phishing threat found for this URL.'
+      );
+      setModalVisible(true);
 
-  const user = auth().currentUser;
-  if (user) {
-    const ref = database().ref(`/scan_history/${user.uid}`).push();
-    await ref.set({
-      url: link.trim(),
-      isPhishing: isPhishingDetected,
-      scannedAt: new Date().toISOString(),
-    });
-  }
-} catch (error) {
-  console.error('DeepSeek API Error:', error);
-  setIsPhishing(true);
-  setModalMessage('Error occurred during scan. Please try again.');
-  setModalVisible(true);
-}
+      const user = auth().currentUser;
+      if (user) {
+        const ref = database().ref(`/scan_history/${user.uid}`).push();
+        await ref.set({
+          url: link.trim(),
+          isPhishing: isPhishingDetected,
+          scannedAt: new Date().toISOString(),
+        });
+      }
+    } catch (error) {
+      console.error('DeepSeek API Error:', error);
+      setIsPhishing(true);
+      setModalMessage('Error occurred during scan. Please try again.');
+      setModalVisible(true);
+    }
 
+    setLoading(false); // ✅ stop loader
   };
-
-  const handleReport = () => {
+  const handleReport = async () => {
     if (!link.trim()) {
       setIsPhishing(true);
       setModalMessage('No link to report!');
-    } else {
-      setIsPhishing(false);
-      setModalMessage('Link reported!\n\n' + link);
+      setModalVisible(true);
+      return;
     }
-    setModalVisible(true);
-  };
+    try {
+      const user = auth().currentUser;
 
-  const handleFullScan = () => {
-    setIsPhishing(false);
-    setModalMessage('Performing full device scan...');
-    setModalVisible(true);
+      if (!user) {
+        setIsPhishing(true);
+        setModalMessage('You must be logged in to report a link.');
+        setModalVisible(true);
+        return;
+      }
+      const reportRef = database().ref(`/reported_links/${user.uid}`).push();
+      await reportRef.set({
+        url: link.trim(),
+        reportedAt: new Date().toISOString(),
+      });
+      setIsPhishing(false);
+      setModalMessage('✅ Link reported successfully!\n\n' + link);
+      setModalVisible(true);
+      setLink('');
+    } catch (error) {
+      setIsPhishing(true);
+      setModalMessage('Error reporting link: ' + error.message);
+      setModalVisible(true);
+    }
   };
 
   return (
@@ -154,8 +532,8 @@ const HomeScreen = ({ navigation }) => {
             <Text style={styles.secondaryText}>Report above link</Text>
           </TouchableOpacity>
 
-          <TouchableOpacity style={styles.secondaryButton1} onPress={handleFullScan}>
-            <Text style={styles.secondaryText1}>Full Device Scan</Text>
+          <TouchableOpacity style={styles.secondaryButton1} onPress={()=> navigation.navigate('ScanHistoryScreen')}>
+            <Text style={styles.secondaryText1}>Scan History</Text>
           </TouchableOpacity>
 
           <View style={styles.tipsCard}>
@@ -169,7 +547,6 @@ const HomeScreen = ({ navigation }) => {
               <Text style={styles.tipText}>Loading phishing tip...</Text>
             )}
           </View>
-
           <View style={styles.bottomBar}>
             <TouchableOpacity onPress={() => setActiveTab('HomeScreen')}>
               <Icon1 name="home" size={26} color={activeTab === 'HomeScreen' ? '#13376eff' : 'gray'} />
@@ -187,6 +564,18 @@ const HomeScreen = ({ navigation }) => {
         </ScrollView>
       </KeyboardAvoidingView>
 
+      {/* ✅ Loader Overlay */}
+      {loading && (
+        <View style={styles.loaderContainer}>
+          <LottieView
+            source={require('../animations/loader.json')}
+            autoPlay
+            loop
+            style={{ width: 150, height: 150 }}
+          />
+          <Text style={{ color: '#fff', marginTop: 16, fontSize: 16 }}>Scanning...</Text>
+        </View>
+      )}
       <Modal
         animationType="fade"
         transparent={true}
@@ -221,10 +610,16 @@ const HomeScreen = ({ navigation }) => {
     </ImageBackground>
   );
 };
-
 const styles = StyleSheet.create({
-  // styles unchanged...
-  bg: { flex: 1, backgroundColor: '#001f3f' },
+  loaderContainer: {
+    position: 'absolute',
+    top: 0, left: 0, right: 0, bottom: 0,
+    backgroundColor: 'rgba(0,0,0,0.6)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    zIndex: 999,
+  },
+   bg: { flex: 1, backgroundColor: '#001f3f' },
   container: { flexGrow: 1, padding: 20, alignItems: 'center', justifyContent: 'flex-start' },
   heading: { fontSize: 24, fontWeight: 'bold', color: '#fff', marginTop: 30, marginBottom: 10 },
   subheading: { fontSize: 16, color: '#fff', marginBottom: 20 },

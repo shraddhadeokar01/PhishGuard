@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import { Text, View, Button, TextInput, TouchableOpacity, Alert, StyleSheet, Style } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
@@ -18,6 +16,7 @@ import AboutUsScreen from './src/screens1/AboutUs';
 import NotificationScreen from './src/screens1/NotificationScreen.jsx';
 import ChatBotScreen from './src/screens1/ChatBotScreen.jsx';
 import SplashScreen from './src/screens1/SplashScreen.jsx';
+import ForgetPasswordScreen from './src/screens1/ForgetPasswordScreen.jsx'
 const Stack = createNativeStackNavigator();
 
 const App = () => {
@@ -41,10 +40,10 @@ const App = () => {
         <Stack.Screen name="NotificationsScreen" component={NotificationScreen} />
         <Stack.Screen name="ChatBotScreen" component={ChatBotScreen} />
         <Stack.Screen name="EditProfileScreen" component={EditProfileScreen} />
+        <Stack.Screen name="ForgetPasswordScreen" component={ForgetPasswordScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
-
 }
 export default App;
 
